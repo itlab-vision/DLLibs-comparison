@@ -1,2 +1,2 @@
-./torch/data
-./torch/results
+torch/data/
+torch/results/
