@@ -1,0 +1,3 @@
+Model, Mean class accuracy, Specific params
+linear,24.7,Trained on SVHN
+mlp,96.4,Trained on MNIST
