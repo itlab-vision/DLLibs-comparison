@@ -1,0 +1,76 @@
+name: "Linear"
+layers {
+  name: "mnist"
+  type: DATA
+  top: "data"
+  top: "label"
+  data_param {
+    source: "examples/mnist/mnist_train_lmdb"
+    backend: LMDB
+    batch_size: 64
+  }
+  transform_param {
+    scale: 0.00390625
+  }
+  include: { phase: TRAIN }
+}
+layers {
+  name: "mnist"
+  type: DATA
+  top: "data"
+  top: "label"
+  data_param {
+    source: "examples/mnist/mnist_test_lmdb"
+    backend: LMDB
+    batch_size: 100
+  }
+  transform_param {
+    scale: 0.00390625
+  }
+  include: { phase: TEST }
+}
+layers {
+  name: "ip"
+  type: INNER_PRODUCT
+  bottom: "data"
+  top: "ip"
+  inner_product_param {
+    num_output: 50
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "tanh"
+  bottom: "ip"
+  top: "tanh"
+  type: RELU
+}
+layers {
+  name: "ip1"
+  type: INNER_PRODUCT
+  bottom: "tanh"
+  top: "ip1"
+  inner_product_param {
+    num_output: 10
+  }
+}
+layers {
+  name: "accuracy"
+  type: ACCURACY
+  bottom: "ip1"
+  bottom: "label"
+  top: "accuracy"
+  include: { phase: TEST }
+}
+layers {
+  name: "loss"
+  type: SOFTMAX_LOSS
+  bottom: "ip1"
+  bottom: "label"
+  top: "loss"
+}
