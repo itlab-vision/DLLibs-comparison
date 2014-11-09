@@ -1,2 +1,3 @@
-torch/data/
-torch/results/
+data/
+*.dat
+*.net

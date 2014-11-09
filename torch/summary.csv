@@ -1,3 +1,6 @@
-Model, Mean class accuracy, Specific params
-linear,24.7,Trained on SVHN
-mlp,96.4,Trained on MNIST
+Model, Man class accuracy(Test), Mean class accuracy(Train), Loss function, Dataset
+linear, 24.7, ?, NLL, SVHN
+linear, 90.6, 90.2, NLL, MNIST
+mlp, 96.4, 100, NLL, MNIST
+cnn, 99.06, 100, NLL, MNIST
+lenet, 88.4, 88.4, NLL, MNIST
