@@ -3,3 +3,4 @@ linear, 24.7, ?, NLL, SVHN
 linear, 90.6, 90.2, NLL, MNIST
 mlp, 96.4, 100, NLL, MNIST
 cnn, 99.06, 100, NLL, MNIST
+lenet, 88.4, 88.4, NLL, MNIST
