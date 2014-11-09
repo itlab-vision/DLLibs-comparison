@@ -41,15 +41,15 @@ noutputs = 10
 
 -- input dimensions
 nfeats = 1
-width = 28
-height = 28
+width = 32
+height = 32
 ninputs = nfeats*width*height
 
 -- number of hidden units (for MLP only):
 nhiddens = ninputs / 2
 
 -- hidden units, filter sizes (for ConvNet only):
-nstates = {56,56,112}
+nstates = {64,64,128}
 filtsize = 5
 poolsize = 2
 normkernel = image.gaussian1D(7)
