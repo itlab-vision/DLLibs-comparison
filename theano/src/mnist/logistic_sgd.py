@@ -115,10 +115,10 @@ class LogisticRegression(object):
 
         .. math::
 
-            \frac{1}{|\mathcal{D}|} \mathcal{L} (\theta=\{W,b\}, \mathcal{D}) =
-            \frac{1}{|\mathcal{D}|} \sum_{i=0}^{|\mathcal{D}|}
-                \log(P(Y=y^{(i)}|x^{(i)}, W,b)) \\
-            \ell (\theta=\{W,b\}, \mathcal{D})
+            \\frac{1}{|\mathcal{D}|} \mathcal{L} (\\theta=\{W,b\}, \mathcal{D}) =
+            \\frac{1}{|\mathcal{D}|} \sum_{i=0}^{|\mathcal{D}|}
+                \log(P(Y=y^{(i)}|x^(i)}, W,b)) \\
+            \ell (\\theta=\{W,b\}, \mathcal{D})
 
         :type y: theano.tensor.TensorType
         :param y: corresponds to a vector that gives for each example the
@@ -266,6 +266,7 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,
                  http://www.iro.umontreal.ca/~lisa/deep/data/mnist/mnist.pkl.gz
 
     """
+
     datasets = load_data(dataset)
 
     train_set_x, train_set_y = datasets[0]
@@ -276,7 +277,7 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,
     n_train_batches = train_set_x.get_value(borrow=True).shape[0] / batch_size
     n_valid_batches = valid_set_x.get_value(borrow=True).shape[0] / batch_size
     n_test_batches = test_set_x.get_value(borrow=True).shape[0] / batch_size
-    
+
     print 'train size = ' + `train_set_x.get_value(borrow=True).shape[0]`
     print 'test size = ' + `test_set_x.get_value(borrow=True).shape[0]`
 
@@ -430,6 +431,12 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,
         )
         % (best_validation_loss * 100., test_score * 100.)
     )
+
+    save_file = open('/home/dmitry/Projects/DNN-develop/theano/results/linear', 'wb')  # this will overwrite current contents
+    cPickle.dump(classifier.W.get_value(borrow=True), save_file, -1)  # the -1 is for HIGHEST_PROTOCOL
+    cPickle.dump(classifier.b.get_value(borrow=True), save_file, -1)  # .. and it triggers much more efficient
+    save_file.close()
+
     print 'The code run for %d epochs, with %f epochs/sec' % (
         epoch, 1. * epoch / (end_time - start_time))
     print >> sys.stderr, ('The code for file ' +
