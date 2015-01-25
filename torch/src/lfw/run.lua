@@ -23,7 +23,7 @@ opt = lapp[[
    -d,--dropout            (default 0.5)         dropout amount
    -b,--batchSize          (default 128)         batch size
    -t,--threads            (default 8)           number of threads
-   -p,--type               (default float)       float or cuda
+   -p,--type               (default cuda)       float or cuda
    -i,--devid              (default 1)           device ID (if using CUDA)
    -o,--save               (default results)     save directory
       --model              (default cnn)
@@ -57,8 +57,19 @@ local test  = require 'test'
 ----------------------------------------------------------------------
 print(sys.COLORS.red .. '==> training!')
 
+max_test_acr = 0
 while true do
-   train(data.trainData)
-   test(data.testData)
+   train(data.trainData, max_test_acr)
+   test_acr = test(data.testData)
+
+   if test_acr > 0.998 then
+      break
+   end
+
+   early_stop = 100 * ((1 - test_acr) / (1 - max_test_acr) - 1)
+   print('early stopping value = ' .. early_stop)
+   if (early_stop > 50) then
+      break
+   end
 end
 
