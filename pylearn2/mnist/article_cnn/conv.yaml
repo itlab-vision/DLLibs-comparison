@@ -1,0 +1,89 @@
+!obj:pylearn2.train.Train {
+    dataset: &train !obj:pylearn2.datasets.mnist.MNIST {
+        which_set: 'train',
+        start: 0,
+        stop: %(train_stop)i
+    },
+    model: !obj:pylearn2.models.mlp.MLP {
+        input_space: !obj:pylearn2.space.Conv2DSpace {
+            shape: [28, 28],
+            num_channels: 1
+        },
+        layers: [ !obj:pylearn2.models.mlp.ConvRectifiedLinear {
+                     layer_name: 'conv1',
+                     output_channels: 28,
+                     irange: .05,
+                     kernel_shape: [5, 5],
+                     kernel_stride: [1, 1],
+                     pool_shape: [3, 3],
+                     pool_stride: [3, 3],
+                     max_kernel_norm: 1.9365
+                 }, !obj:pylearn2.models.mlp.ConvRectifiedLinear {
+                     layer_name: 'conv2',
+                     output_channels: 56,
+                     irange: .05,
+                      kernel_shape: [5, 5],
+                     kernel_stride: [1, 1],
+                     pool_shape: [2, 2],
+                     pool_stride: [2, 2],
+                     max_kernel_norm: 1.9365
+                 }, !obj:pylearn2.models.mlp.Tanh {
+                     max_col_norm: 1.9365,
+                     layer_name: 'ip1',
+                     dim: 224,
+                     sparse_init: 15,
+                 },!obj:pylearn2.models.mlp.Tanh {
+                     max_col_norm: 1.9365,
+                     layer_name: 'ip2',
+                     dim: 200,
+                     sparse_init: 15,
+                 },!obj:pylearn2.models.mlp.Tanh {
+                     max_col_norm: 1.9365,
+                     layer_name: 'ip3',
+                     dim: 10,
+                     sparse_init: 15,
+                 },!obj:pylearn2.models.mlp.Softmax {
+                     max_col_norm: 1.9365,
+                     layer_name: 'soft',
+                     n_classes: 10,
+                     istdev: .05
+                 }
+                ],
+    },
+    algorithm: !obj:pylearn2.training_algorithms.sgd.SGD {
+        batch_size: 128,
+        learning_rate: .01,
+        monitoring_dataset:
+            {
+                'train' : *train,
+                'valid' : !obj:pylearn2.datasets.mnist.MNIST {
+                              which_set: 'train',
+                              start: 50000,
+                              stop: 60000
+                          },
+                'test'  : !obj:pylearn2.datasets.mnist.MNIST {
+                              which_set: 'test',
+                          }
+            },
+        learning_rule: !obj:pylearn2.training_algorithms.learning_rule.Momentum {
+            init_momentum: .9
+        },
+        cost: !obj:pylearn2.costs.cost.SumOfCosts { costs: [
+            !obj:pylearn2.costs.cost.MethodCost {
+                method: 'cost_from_X'
+            }
+            ]
+        },
+        termination_criterion: !obj:pylearn2.termination_criteria.And {
+            criteria: [
+                !obj:pylearn2.termination_criteria.EpochCounter {
+                    max_epochs: 2
+                },
+            ]
+        },
+    },
+save_path: "cnn.pkl",
+save_freq: 2
+}
+
+

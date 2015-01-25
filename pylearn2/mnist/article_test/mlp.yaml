@@ -22,7 +22,7 @@
         nvis: 784,
     },
     algorithm: !obj:pylearn2.training_algorithms.sgd.SGD {
-        batch_size: 100,
+        batch_size: 128,
         learning_rate: .01,
         monitoring_dataset:
             {
@@ -30,7 +30,7 @@
                 'valid' : !obj:pylearn2.datasets.mnist.MNIST {
                               which_set: 'train',
                               start: 50000,
-                              stop: %(valid_stop)i
+                              stop: 60000
                           },
                 'test'  : !obj:pylearn2.datasets.mnist.MNIST {
                               which_set: 'test',
@@ -54,10 +54,6 @@
             ]
         }
     },
-    extensions: [
-        !obj:pylearn2.train_extensions.best_params.MonitorBasedSaveBest {
-             channel_name: 'valid_y_misclass',
-             save_path: "%(save_path)s/mlp_3_best.pkl"
-        }
-    ]
+save_path: "mlp.pkl",
+save_freq: 150
 }
