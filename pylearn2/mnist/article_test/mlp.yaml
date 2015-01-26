@@ -49,7 +49,7 @@
         termination_criterion: !obj:pylearn2.termination_criteria.And {
             criteria: [
                 !obj:pylearn2.termination_criteria.EpochCounter {
-                    max_epochs: %(max_epochs)i
+                    max_epochs: 150
                 }
             ]
         }
