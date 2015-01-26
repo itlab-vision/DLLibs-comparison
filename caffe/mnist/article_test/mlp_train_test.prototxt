@@ -36,13 +36,11 @@ layers {
   top: "ip1"
   inner_product_param {
     num_output: 392
-     weight_filler {
-      type: "constant"
-      value: 0
+    weight_filler {
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 }
@@ -60,12 +58,10 @@ layers {
   inner_product_param {
     num_output: 196
     weight_filler {
-      type: "constant"
-      value: 0
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 }
@@ -83,12 +79,10 @@ layers {
   inner_product_param {
     num_output: 10
     weight_filler {
-      type: "constant"
-      value: 0
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 
