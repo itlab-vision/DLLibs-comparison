@@ -41,13 +41,11 @@ layers {
     num_output: 28
     kernel_size: 5
     stride: 1
-     weight_filler {
-      type: "constant"
-      value: 0
+    weight_filler {
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 }
@@ -73,13 +71,11 @@ layers {
     num_output: 56
     kernel_size: 5
     stride: 1
-     weight_filler {
-      type: "constant"
-      value: 0
+    weight_filler {
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 }
@@ -104,12 +100,10 @@ layers {
   inner_product_param {
     num_output: 224
     weight_filler {
-      type: "constant"
-      value: 0
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 }
@@ -123,12 +117,10 @@ layers {
   inner_product_param {
     num_output: 200
     weight_filler {
-      type: "constant"
-      value: 0
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 }
@@ -148,12 +140,10 @@ layers {
   inner_product_param {
     num_output: 10
     weight_filler {
-      type: "constant"
-      value: 0
+      type: "xavier"
     }
     bias_filler {
       type: "constant"
-      value: 0
     }
   }
 }
