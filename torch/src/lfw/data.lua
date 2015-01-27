@@ -5,6 +5,10 @@ require 'nn'      -- provides a normalization operator
 
 classes = { 'face', 'backg' }
 
+path_to_ready_dset = "/home/dmitry/Projects/DNN-develop/data/LFW_Torch/"
+path_to_neg = "/home/dmitry/Projects/DNN-develop/data/pascal_voc/"
+path_to_pos = "/home/dmitry/Projects/DNN-develop/data/LFW/"
+
 ----------------------------------------------------------------------
 print(sys.COLORS.red ..  '==> loading dataset')
 
@@ -13,7 +17,6 @@ function file_exists(name)
    if f~=nil then io.close(f) return true else return false end
 end
 
-path_to_ready_dset = "/home/dmitry/Projects/DNN-develop/data/LFW_NEG_Torch/"
 
 if (
    file_exists(path_to_ready_dset .. "train.th7") and
@@ -32,24 +35,38 @@ if (
 else
    print "now we will create dataset"
 
+   if not file_exists(path_to_neg .. "annotation.txt") then
+      print "Please create annotation for negative dataset!"
+      return
+   end
+
+   neg_annot = io.open(path_to_neg .. "annotation.txt", "r")
+
+   neg_size = neg_annot:read("*n")
+   neg_annot:read() -- read \n after digit
+
+   if neg_size == nil then
+      print "Please write in annotation the size of dataset (first string)"
+      return
+   end
+
    pos_size = 13234
-   neg_size = 26468 -- from 46078
+
    sum_size = pos_size + neg_size
 
    local imagesAll = torch.Tensor(sum_size, 3, 32, 32)
    local labelsAll = torch.Tensor(sum_size)
 
    -- load negatives:
-   path_to_neg = "/home/dmitry/Projects/DNN-develop/data/NEG_32x32/"
    for i = 0, neg_size do
-      imagesAll[i + 1] = image.loadJPG(path_to_neg .. string.format("%05d", i) .. '.jpg')
+      path = neg_annot:read()
+      imagesAll[i + 1] = image.loadJPG(path_to_neg .. path)
       labelsAll[i + 1] = 2
    end
    collectgarbage()
    print 'negative dataset has been loaded'
 
    -- load faces:
-   path_to_pos = "/home/dmitry/Projects/DNN-develop/data/LFW/"
    lines = io.lines(path_to_pos .. "name_folders.txt")
 
    i = neg_size + 1
@@ -145,15 +162,24 @@ else
    -- the trainable parameters. At test time, test data will be normalized
    -- using these values.
    print(sys.COLORS.red ..  '==> preprocessing data: normalize each feature (channel) globally')
+
+   file_stat = io.open(path_to_ready_dset .. "statistics.txt", "w")
+
    local mean = {}
    local std = {}
+   file_stat:write("before\n")
    for i,channel in ipairs(channels) do
       -- normalize each channel globally:
       mean[i] = trainData.data[{ {},i,{},{} }]:mean()
       std[i] = trainData.data[{ {},i,{},{} }]:std()
+      print('mean channel '..i..' = '..mean[i])
+      print('std channel '..i..' = '..std[i])
+      file_stat:write('mean channel '..i..' = '..mean[i] .. "\n")
+      file_stat:write('std channel '..i..' = '..std[i] .. "]\n")
       trainData.data[{ {},i,{},{} }]:add(-mean[i])
       trainData.data[{ {},i,{},{} }]:div(std[i])
    end
+   file_stat:write("\n")
 
    -- Normalize test data, using the training means/stds
    for i,channel in ipairs(channels) do
@@ -185,6 +211,7 @@ else
    ----------------------------------------------------------------------
    print(sys.COLORS.red ..  '==> verify statistics')
 
+   file_stat:write("after\n")
    for i,channel in ipairs(channels) do
       local trainMean = trainData.data[{ {},i }]:mean()
       local trainStd = trainData.data[{ {},i }]:std()
@@ -194,16 +221,20 @@ else
 
       print('training data, '..channel..'-channel, mean: ' .. trainMean)
       print('training data, '..channel..'-channel, standard deviation: ' .. trainStd)
+      file_stat:write('training data, '..channel..'-channel, mean: ' .. trainMean .. "\n")
+      file_stat:write('training data, '..channel..'-channel, standard deviation: ' .. trainStd .. "\n")
 
       print('test data, '..channel..'-channel, mean: ' .. testMean)
       print('test data, '..channel..'-channel, standard deviation: ' .. testStd)
+      file_stat:write('test data, '..channel..'-channel, mean: ' .. testMean .. "\n")
+      file_stat:write('test data, '..channel..'-channel, standard deviation: ' .. testStd .. "\n")
    end
+   file_stat:close()
 
    ----------------------------------------------------------------------
    print(sys.COLORS.red ..  '==> preprocessing data is done, saving...')
-   path_to_save = "/home/dmitry/Projects/DNN-develop/data/LFW_NEG_Torch/"
-   torch.save(path_to_save .. 'train.th7', trainData)
-   torch.save(path_to_save .. 'test.th7', testData)
+   torch.save(path_to_ready_dset .. 'train.th7', trainData)
+   torch.save(path_to_ready_dset .. 'test.th7', testData)
 end
 
 -- Exports

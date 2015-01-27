@@ -1,0 +1,13 @@
+MLP
+
+caffe      5.5  minutes 97.4%
+pylearn2   18.7 minutes 98.1%
+torch      8.9  minutes 98.2%
+theano     5.1  minutes 97.4%
+
+CNN
+
+caffe      1.1 hours   99.1%
+pylearn2   5.7 hours   99.3%
+torch      1.5 hours   99.1%
+theano     3   hours   98.5%

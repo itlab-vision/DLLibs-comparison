@@ -365,6 +365,15 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
                     )
                 )
 
+                # test it on the test set
+                test_losses = [test_model(i) for i
+                               in xrange(n_test_batches)]
+                test_score = numpy.mean(test_losses)
+                print(('     epoch %i, minibatch %i/%i, test error of '
+                       'best model %f %%') %
+                      (epoch, minibatch_index + 1, n_train_batches,
+                       test_score * 100.))
+
                 # if we got the best validation score until now
                 if this_validation_loss < best_validation_loss:
                     #improve patience if loss improvement is good enough
