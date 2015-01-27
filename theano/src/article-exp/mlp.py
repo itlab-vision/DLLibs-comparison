@@ -1,24 +1,9 @@
-"""
-This tutorial introduces the multilayer perceptron using Theano.
 
- A multilayer perceptron is a logistic regressor where
-instead of feeding the input to the logistic regression you insert a
-intermediate layer, called the hidden layer, that has a nonlinear
-activation function (usually tanh or sigmoid) . One can use many such
-hidden layers making the architecture deep. The tutorial will also tackle
-the problem of MNIST digit classification.
 
-.. math::
+# IMPORTANT
+# momentum * param - learning_rate * gparam - learning_rate * weight_decay * param
 
-    f(x) = G( b^{(2)} + W^{(2)}( s( b^{(1)} + W^{(1)} x))),
 
-References:
-
-    - textbooks: "Pattern Recognition and Machine Learning" -
-                 Christopher M. Bishop, section 5
-
-"""
-__docformat__ = 'restructedtext en'
 
 import cPickle
 import os
@@ -30,13 +15,10 @@ import numpy
 import theano
 import theano.tensor as T
 
-
 from logistic_sgd import LogisticRegression, load_data
 
-
-# start-snippet-1
 class HiddenLayer(object):
-    def __init__(self, rng, input, n_in, n_out, W=None, b=None,
+    def __init__(self, input, n_in, n_out, W=None, b=None,
                  activation=T.tanh):
         """
         Typical hidden layer of a MLP: units are fully-connected and have
@@ -46,9 +28,6 @@ class HiddenLayer(object):
         NOTE : The nonlinearity used here is tanh
 
         Hidden unit activation is given by: tanh(dot(input,W) + b)
-
-        :type rng: numpy.random.RandomState
-        :param rng: a random number generator used to initialize weights
 
         :type input: theano.tensor.dmatrix
         :param input: a symbolic tensor of shape (n_examples, n_in)
@@ -78,6 +57,16 @@ class HiddenLayer(object):
         #        compared to tanh
         #        We have no info for other function, so we use the same as
         #        tanh.
+        #if W is None:
+        #    W_values = numpy.zeros((n_in, n_out), dtype=theano.config.floatX)
+        #    W = theano.shared(value=W_values, name='W', borrow=True)
+
+        #if b is None:
+        #    b_values = numpy.zeros((n_out,), dtype=theano.config.floatX)
+        #    b = theano.shared(value=b_values, name='b', borrow=True)
+
+        rng = numpy.random.RandomState(1234)
+
         if W is None:
             W_values = numpy.asarray(
                 rng.uniform(
@@ -87,10 +76,10 @@ class HiddenLayer(object):
                 ),
                 dtype=theano.config.floatX
             )
-            if activation == theano.tensor.nnet.sigmoid:
-                W_values *= 4
+        if activation == theano.tensor.nnet.sigmoid:
+            W_values *= 4
 
-            W = theano.shared(value=W_values, name='W', borrow=True)
+        W = theano.shared(value=W_values, name='W', borrow=True)
 
         if b is None:
             b_values = numpy.zeros((n_out,), dtype=theano.config.floatX)
@@ -120,11 +109,8 @@ class MLP(object):
     class).
     """
 
-    def __init__(self, rng, input, n_in, n_hidden, n_out):
+    def __init__(self, input, n_in, n_hidden1, n_hidden2, n_out):
         """Initialize the parameters for the multilayer perceptron
-
-        :type rng: numpy.random.RandomState
-        :param rng: a random number generator used to initialize weights
 
         :type input: theano.tensor.TensorType
         :param input: symbolic variable that describes the input of the
@@ -134,8 +120,8 @@ class MLP(object):
         :param n_in: number of input units, the dimension of the space in
         which the datapoints lie
 
-        :type n_hidden: int
-        :param n_hidden: number of hidden units
+        :type n_hidden1: int
+        :param n_hidden1: number of hidden units
 
         :type n_out: int
         :param n_out: number of output units, the dimension of the space in
@@ -147,34 +133,26 @@ class MLP(object):
         # into a HiddenLayer with a tanh activation function connected to the
         # LogisticRegression layer; the activation function can be replaced by
         # sigmoid or any other nonlinear function
-        self.hiddenLayer = HiddenLayer(
-            rng=rng,
+        self.hiddenLayer1 = HiddenLayer(
             input=input,
             n_in=n_in,
-            n_out=n_hidden,
+            n_out=n_hidden1,
+            activation=T.tanh
+        )
+
+        self.hiddenLayer2 = HiddenLayer(
+            input=self.hiddenLayer1.output,
+            n_in=n_hidden1,
+            n_out=n_hidden2,
             activation=T.tanh
         )
 
         # The logistic regression layer gets as input the hidden units
         # of the hidden layer
         self.logRegressionLayer = LogisticRegression(
-            input=self.hiddenLayer.output,
-            n_in=n_hidden,
+            input=self.hiddenLayer2.output,
+            n_in=n_hidden2,
             n_out=n_out
-        )
-        # end-snippet-2 start-snippet-3
-        # L1 norm ; one regularization option is to enforce L1 norm to
-        # be small
-        self.L1 = (
-            abs(self.hiddenLayer.W).sum()
-            + abs(self.logRegressionLayer.W).sum()
-        )
-
-        # square of L2 norm ; one regularization option is to enforce
-        # square of L2 norm to be small
-        self.L2_sqr = (
-            (self.hiddenLayer.W ** 2).sum()
-            + (self.logRegressionLayer.W ** 2).sum()
         )
 
         # negative log likelihood of the MLP is given by the negative
@@ -188,39 +166,12 @@ class MLP(object):
 
         # the parameters of the model are the parameters of the two layer it is
         # made out of
-        self.params = self.hiddenLayer.params + self.logRegressionLayer.params
+        self.params = self.hiddenLayer1.params + self.hiddenLayer2.params + self.logRegressionLayer.params
         # end-snippet-3
 
 
-def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
-             dataset='mnist.pkl.gz', batch_size=20, n_hidden=500):
-    """
-    Demonstrate stochastic gradient descent optimization for a multilayer
-    perceptron
-
-    This is demonstrated on MNIST.
-
-    :type learning_rate: float
-    :param learning_rate: learning rate used (factor for the stochastic
-    gradient
-
-    :type L1_reg: float
-    :param L1_reg: L1-norm's weight when added to the cost (see
-    regularization)
-
-    :type L2_reg: float
-    :param L2_reg: L2-norm's weight when added to the cost (see
-    regularization)
-
-    :type n_epochs: int
-    :param n_epochs: maximal number of epochs to run the optimizer
-
-    :type dataset: string
-    :param dataset: the path of the MNIST dataset file from
-                 http://www.iro.umontreal.ca/~lisa/deep/data/mnist/mnist.pkl.gz
-
-
-   """
+def test_mlp(learning_rate=0.01, momentum=0.9, weight_decay=0.00001,
+ 			n_epochs=150, dataset='mnist.pkl.gz', batch_size=128):
     datasets = load_data(dataset)
 
     train_set_x, train_set_y = datasets[0]
@@ -243,25 +194,19 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
     y = T.ivector('y')  # the labels are presented as 1D vector of
                         # [int] labels
 
-    rng = numpy.random.RandomState(1234)
-
     # construct the MLP class
     classifier = MLP(
-        rng=rng,
         input=x,
         n_in=28 * 28,
-        n_hidden=n_hidden,
+        n_hidden1=394,
+        n_hidden2=196,
         n_out=10
     )
 
     # start-snippet-4
-    # the cost we minimize during training is the negative log likelihood of
-    # the model plus the regularization terms (L1 and L2); cost is expressed
-    # here symbolically
+    # the cost we minimize during training is the negative log likelihood
     cost = (
         classifier.negative_log_likelihood(y)
-        + L1_reg * classifier.L1
-        + L2_reg * classifier.L2_sqr
     )
     # end-snippet-4
 
@@ -320,28 +265,14 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
     # TRAIN MODEL #
     ###############
     print '... training'
-
-    # early-stopping parameters
-    patience = 10000  # look as this many examples regardless
-    patience_increase = 2  # wait this much longer when a new best is
-                           # found
-    improvement_threshold = 0.995  # a relative improvement of this much is
-                                   # considered significant
-    validation_frequency = min(n_train_batches, patience / 2)
-                                  # go through this many
-                                  # minibatche before checking the network
-                                  # on the validation set; in this case we
-                                  # check every epoch
-
     best_validation_loss = numpy.inf
     best_iter = 0
     test_score = 0.
     start_time = time.clock()
 
     epoch = 0
-    done_looping = False
 
-    while (epoch < n_epochs) and (not done_looping):
+    while epoch < n_epochs:
         epoch = epoch + 1
         for minibatch_index in xrange(n_train_batches):
 
@@ -349,7 +280,7 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
             # iteration number
             iter = (epoch - 1) * n_train_batches + minibatch_index
 
-            if (iter + 1) % validation_frequency == 0:
+            if epoch % 149 == 0 and minibatch_index == 389:
                 # compute zero-one loss on validation set
                 validation_losses = [validate_model(i) for i
                                      in xrange(n_valid_batches)]
@@ -364,49 +295,30 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
                         this_validation_loss * 100.
                     )
                 )
+                best_validation_loss = this_validation_loss
+                best_iter = iter
 
                 # test it on the test set
                 test_losses = [test_model(i) for i
                                in xrange(n_test_batches)]
                 test_score = numpy.mean(test_losses)
+
                 print(('     epoch %i, minibatch %i/%i, test error of '
                        'best model %f %%') %
                       (epoch, minibatch_index + 1, n_train_batches,
                        test_score * 100.))
 
-                # if we got the best validation score until now
-                if this_validation_loss < best_validation_loss:
-                    #improve patience if loss improvement is good enough
-                    if (
-                        this_validation_loss < best_validation_loss *
-                        improvement_threshold
-                    ):
-                        patience = max(patience, iter * patience_increase)
+                print('Save model to results/mlp')
+                save_file = open('/home/dmitry/Projects/DNN-develop/theano/results/mlp', 'wb')
+                cPickle.dump(classifier.hiddenLayer1.W.get_value(borrow=True), save_file, -1)
+                cPickle.dump(classifier.hiddenLayer1.b.get_value(borrow=True), save_file, -1)
 
-                    best_validation_loss = this_validation_loss
-                    best_iter = iter
+                cPickle.dump(classifier.hiddenLayer2.W.get_value(borrow=True), save_file, -1)
+                cPickle.dump(classifier.hiddenLayer2.b.get_value(borrow=True), save_file, -1)
 
-                    # test it on the test set
-                    test_losses = [test_model(i) for i
-                                   in xrange(n_test_batches)]
-                    test_score = numpy.mean(test_losses)
-
-                    print(('     epoch %i, minibatch %i/%i, test error of '
-                           'best model %f %%') %
-                          (epoch, minibatch_index + 1, n_train_batches,
-                           test_score * 100.))
-
-                    print('Save model to results/mlp')
-                    save_file = open('/home/dmitry/Projects/DNN-develop/theano/results/mlp', 'wb')  # this will overwrite current contents
-                    cPickle.dump(classifier.hiddenLayer.W.get_value(borrow=True), save_file, -1)  # the -1 is for HIGHEST_PROTOCOL
-                    cPickle.dump(classifier.hiddenLayer.b.get_value(borrow=True), save_file, -1)  # .. and it triggers much more efficient
-                    cPickle.dump(classifier.logRegressionLayer.W.get_value(borrow=True), save_file, -1)
-                    cPickle.dump(classifier.logRegressionLayer.b.get_value(borrow=True), save_file, -1)
-                    save_file.close()
-
-            if patience <= iter:
-                done_looping = True
-                break
+                cPickle.dump(classifier.logRegressionLayer.W.get_value(borrow=True), save_file, -1)
+                cPickle.dump(classifier.logRegressionLayer.b.get_value(borrow=True), save_file, -1)
+                save_file.close()
 
     end_time = time.clock()
     print(('Optimization complete. Best validation score of %f %% '

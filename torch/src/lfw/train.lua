@@ -86,7 +86,7 @@ print(sys.COLORS.red ..  '==> defining training procedure')
 
 local epoch
 
-local function train(trainData)
+local function train(trainData, max_test_acr)
 
    -- epoch tracker
    epoch = epoch or 1
@@ -167,12 +167,14 @@ local function train(trainData)
    end
 
    -- save/log current net
-   local filename = paths.concat(opt.save, 'model.net')
-   os.execute('mkdir -p ' .. sys.dirname(filename))
-   print('==> saving model to '..filename)
-   model1 = model:clone()
-   netLighter(model1)
-   torch.save(filename, model1)
+   if confusion.totalValid * 100 > max_test_acr then
+      local filename = paths.concat(opt.save, 'model.net')
+      os.execute('mkdir -p ' .. sys.dirname(filename))
+      print('==> saving model to '..filename)
+      model1 = model:clone()
+      netLighter(model1)
+      torch.save(filename, model1)
+   end
 
    -- next epoch
    confusion:zero()
