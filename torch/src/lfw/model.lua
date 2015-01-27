@@ -113,8 +113,8 @@ print(sys.COLORS.red ..  '==> here is the CNN:')
 print(model)
 
 if opt.type == 'cuda' then
-   model:cuda()
-   loss:cuda()
+   model = model:cuda()
+   loss = loss:cuda()
 end
 
 -- return package:
