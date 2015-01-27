@@ -1,0 +1,45 @@
+CNN-face
+-------------------------------------------------
+nn.Sequential {
+  [input -> (1) -> (2) -> output]
+  (1): nn.Sequential {
+    [input -> (1) -> (2) -> (3) -> (4) -> (5) -> output]
+    (1): nn.SpatialConvolutionMM
+    (2): nn.Threshold
+    (3): nn.SpatialMaxPooling
+    (4): nn.SpatialConvolutionMM
+    (5): nn.Threshold
+  }
+  (2): nn.Sequential {
+    [input -> (1) -> (2) -> (3) -> output]
+    (1): nn.Reshape
+    (2): nn.Linear
+    (3): nn.LogSoftMax
+  }
+}
+
+
+CNN3-face
+------------------------------------------------
+nn.Sequential {
+  [input -> (1) -> (2) -> output]
+  (1): nn.Sequential {
+    [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> (7) -> (8) -> output]
+    (1): nn.SpatialConvolutionMM
+    (2): nn.ReLU
+    (3): nn.SpatialMaxPooling
+    (4): nn.SpatialConvolutionMM
+    (5): nn.ReLU
+    (6): nn.SpatialMaxPooling
+    (7): nn.SpatialConvolutionMM
+    (8): nn.ReLU
+  }
+  (2): nn.Sequential {
+    [input -> (1) -> (2) -> (3) -> (4) -> (5) -> output]
+    (1): nn.Reshape
+    (2): nn.Linear
+    (3): nn.ReLU
+    (4): nn.Linear
+    (5): nn.LogSoftMax
+  }
+}
