@@ -17,6 +17,17 @@
 using namespace caffe;
 using namespace std;
 using namespace cv;
+
+#if 1
+    #include <stdio.h>
+    #define TIMER_START(name) int64 t_##name = getTickCount()
+    #define TIMER_END(name) printf("TIMER_" #name ":\t%6.2fms\n", \
+                1000.f * ((getTickCount() - t_##name) / getTickFrequency()))
+#else
+    #define TIMER_START(name)
+    #define TIMER_END(name)
+#endif
+
 cv::Mat ReadImageToCVMat(const string& filename,
     const int height, const int width, const bool is_color) {
   cv::Mat cv_img;
@@ -84,8 +95,13 @@ int main(int argc, char** argv) {
   cout << "adding images" << endl;
   boost::dynamic_pointer_cast< caffe::MemoryDataLayer<float> >(caffe_test_net.layers()[0])->AddDatumVector(images);
   cout << "running net" << endl;
-  std::vector<Blob<float>*> result = caffe_test_net.ForwardPrefilled(&loss);
-
+  std::vector<Blob<float>*> result
+  TIMER_START(predict)
+  for(int i=0;i<1000;i++)
+  {
+      result = caffe_test_net.ForwardPrefilled(&loss);
+  }
+TIMER_END(predict)
   cout << "got results" << endl;
   LOG(INFO)<< "Output result size: "<< result.size();
 
