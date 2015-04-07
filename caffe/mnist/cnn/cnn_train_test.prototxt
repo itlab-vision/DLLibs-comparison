@@ -7,7 +7,7 @@ layers {
   data_param {
     source: "examples/mnist/mnist_train_lmdb"
     backend: LMDB
-    batch_size: 64
+    batch_size: 128
   }
   transform_param {
     scale: 0.00390625
@@ -22,7 +22,7 @@ layers {
   data_param {
     source: "examples/mnist/mnist_test_lmdb"
     backend: LMDB
-    batch_size: 100
+    batch_size: 128
   }
   transform_param {
     scale: 0.00390625
@@ -48,12 +48,6 @@ layers {
       type: "constant"
     }
   }
-}
-layers {
-  name: "tanh1"
-  type: TANH
-  bottom: "conv1"
-  top: "conv1"
 }
 layers {
   name: "pool1"
@@ -86,27 +80,38 @@ layers {
   }
 }
 layers {
-  name: "tanh2"
-  type: TANH
+  name: "pool2"
+  type: POOLING
   bottom: "conv2"
-  top: "conv2"
-}
-layers {
-name: "pool2"
-type: POOLING
-bottom: "conv2"
-top: "pool2"
-pooling_param {
-pool: MAX
-kernel_size: 2
-stride: 2
-}
+  top: "pool2"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
 }
 layers {
   name: "ip1"
   type: INNER_PRODUCT
   bottom: "pool2"
   top: "ip1"
+  blobs_lr: 1
+  blobs_lr: 2
+  inner_product_param {
+    num_output: 224
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "ip2"
+  type: INNER_PRODUCT
+  bottom: "ip1"
+  top: "ip2"
   blobs_lr: 1
   blobs_lr: 2
   inner_product_param {
@@ -122,14 +127,14 @@ layers {
 layers {
   name: "tanh"
   type: TANH
-  bottom: "ip1"
-  top: "ip1"
+  bottom: "ip2"
+  top: "ip2"
 }
 layers {
-  name: "ip2"
+  name: "ip3"
   type: INNER_PRODUCT
-  bottom: "ip1"
-  top: "ip2"
+  bottom: "ip2"
+  top: "ip3"
   blobs_lr: 1
   blobs_lr: 2
   inner_product_param {
@@ -145,7 +150,7 @@ layers {
 layers {
   name: "accuracy"
   type: ACCURACY
-  bottom: "ip2"
+  bottom: "ip3"
   bottom: "label"
   top: "accuracy"
   include: { phase: TEST }
@@ -153,7 +158,7 @@ layers {
 layers {
   name: "loss"
   type: SOFTMAX_LOSS
-  bottom: "ip2"
+  bottom: "ip3"
   bottom: "label"
   top: "loss"
 }

@@ -7,7 +7,7 @@ layers {
   data_param {
     source: "examples/mnist/mnist_train_lmdb"
     backend: LMDB
-    batch_size: 64
+    batch_size: 128
   }
   transform_param {
     scale: 0.00390625
@@ -22,7 +22,7 @@ layers {
   data_param {
     source: "examples/mnist/mnist_test_lmdb"
     backend: LMDB
-    batch_size: 100
+    batch_size: 128
   }
   transform_param {
     scale: 0.00390625
@@ -30,12 +30,12 @@ layers {
   include: { phase: TEST }
 }
 layers {
-  name: "ip"
+  name: "ip1"
   type: INNER_PRODUCT
   bottom: "data"
-  top: "ip"
+  top: "ip1"
   inner_product_param {
-    num_output: 50
+    num_output: 392
     weight_filler {
       type: "xavier"
     }
@@ -45,24 +45,52 @@ layers {
   }
 }
 layers {
-  name: "tanh"
-  bottom: "ip"
-  top: "tanh"
-  type: RELU
+  name: "tanh1"
+  bottom: "ip1"
+  top: "tanh1"
+  type: TANH
 }
 layers {
-  name: "ip1"
+  name: "ip2"
   type: INNER_PRODUCT
-  bottom: "tanh"
-  top: "ip1"
+  bottom: "tanh1"
+  top: "ip2"
+  inner_product_param {
+    num_output: 196
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "tanh2"
+  bottom: "ip2"
+  top: "tanh2"
+  type: TANH
+}
+layers {
+  name: "ip3"
+  type: INNER_PRODUCT
+  bottom: "tanh2"
+  top: "ip3"
   inner_product_param {
     num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
   }
+
 }
 layers {
   name: "accuracy"
   type: ACCURACY
-  bottom: "ip1"
+  bottom: "ip3"
   bottom: "label"
   top: "accuracy"
   include: { phase: TEST }
@@ -70,7 +98,7 @@ layers {
 layers {
   name: "loss"
   type: SOFTMAX_LOSS
-  bottom: "ip1"
+  bottom: "ip3"
   bottom: "label"
   top: "loss"
 }
