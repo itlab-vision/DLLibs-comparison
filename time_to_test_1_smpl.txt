@@ -1,0 +1,13 @@
+GPU          MLP          CNN
+--------------------------------
+Torch      0.662 ms     0.252 ms
+Theano     0.014 ms     0.454 ms
+Caffe
+Pylearn2
+
+CPU
+--------------------------------
+Torch      1.112 ms     0.329 ms
+Theano     0.184 ms     3.508 ms
+Caffe
+Pylearn2
