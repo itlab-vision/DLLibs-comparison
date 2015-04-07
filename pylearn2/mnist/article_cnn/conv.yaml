@@ -77,13 +77,13 @@
         termination_criterion: !obj:pylearn2.termination_criteria.And {
             criteria: [
                 !obj:pylearn2.termination_criteria.EpochCounter {
-                    max_epochs: 2
+                    max_epochs: 150
                 },
             ]
         },
     },
 save_path: "cnn.pkl",
-save_freq: 2
+save_freq: 150
 }
 
 
