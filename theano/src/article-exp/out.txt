@@ -1,0 +1,3784 @@
+... loading data
+... building the model
+... training
+epoch 149, minibatch 390/390, validation error 2.634215 %
+     epoch 149, minibatch 390/390, test error of best model 2.584135 %
+Save model to results/mlp
+Optimization complete. Best validation score of 2.634215 % obtained at iteration 58110, with test performance 2.584135 %
+... loading data
+... building the model
+... training
+training @ iter =  0
+training @ iter =  100
+training @ iter =  200
+training @ iter =  300
+epoch 1, minibatch 390/390, validation error 25.520833 %
+     epoch 1, minibatch 390/390, test error of best model 25.781250 %
+training @ iter =  400
+training @ iter =  500
+training @ iter =  600
+training @ iter =  700
+epoch 2, minibatch 390/390, validation error 13.281250 %
+     epoch 2, minibatch 390/390, test error of best model 13.651843 %
+training @ iter =  800
+training @ iter =  900
+training @ iter =  1000
+training @ iter =  1100
+epoch 3, minibatch 390/390, validation error 9.204728 %
+     epoch 3, minibatch 390/390, test error of best model 9.725561 %
+training @ iter =  1200
+training @ iter =  1300
+training @ iter =  1400
+training @ iter =  1500
+epoch 4, minibatch 390/390, validation error 7.361779 %
+     epoch 4, minibatch 390/390, test error of best model 7.762420 %
+training @ iter =  1600
+training @ iter =  1700
+training @ iter =  1800
+training @ iter =  1900
+epoch 5, minibatch 390/390, validation error 6.149840 %
+     epoch 5, minibatch 390/390, test error of best model 6.280048 %
+training @ iter =  2000
+training @ iter =  2100
+training @ iter =  2200
+training @ iter =  2300
+epoch 6, minibatch 390/390, validation error 5.468750 %
+     epoch 6, minibatch 390/390, test error of best model 5.588942 %
+training @ iter =  2400
+training @ iter =  2500
+training @ iter =  2600
+training @ iter =  2700
+epoch 7, minibatch 390/390, validation error 4.827724 %
+     epoch 7, minibatch 390/390, test error of best model 4.997997 %
+training @ iter =  2800
+training @ iter =  2900
+training @ iter =  3000
+training @ iter =  3100
+epoch 8, minibatch 390/390, validation error 4.346955 %
+     epoch 8, minibatch 390/390, test error of best model 4.557292 %
+training @ iter =  3200
+training @ iter =  3300
+training @ iter =  3400
+training @ iter =  3500
+epoch 9, minibatch 390/390, validation error 4.046474 %
+     epoch 9, minibatch 390/390, test error of best model 4.146635 %
+training @ iter =  3600
+training @ iter =  3700
+training @ iter =  3800
+epoch 10, minibatch 390/390, validation error 3.625801 %
+     epoch 10, minibatch 390/390, test error of best model 3.826122 %
+training @ iter =  3900
+training @ iter =  4000
+training @ iter =  4100
+training @ iter =  4200
+epoch 11, minibatch 390/390, validation error 3.315304 %
+     epoch 11, minibatch 390/390, test error of best model 3.545673 %
+training @ iter =  4300
+training @ iter =  4400
+training @ iter =  4500
+training @ iter =  4600
+epoch 12, minibatch 390/390, validation error 3.034856 %
+     epoch 12, minibatch 390/390, test error of best model 3.295272 %
+training @ iter =  4700
+training @ iter =  4800
+training @ iter =  4900
+training @ iter =  5000
+epoch 13, minibatch 390/390, validation error 2.964744 %
+     epoch 13, minibatch 390/390, test error of best model 3.094952 %
+training @ iter =  5100
+training @ iter =  5200
+training @ iter =  5300
+training @ iter =  5400
+epoch 14, minibatch 390/390, validation error 2.814503 %
+     epoch 14, minibatch 390/390, test error of best model 2.954728 %
+training @ iter =  5500
+training @ iter =  5600
+training @ iter =  5700
+training @ iter =  5800
+epoch 15, minibatch 390/390, validation error 2.684295 %
+     epoch 15, minibatch 390/390, test error of best model 2.794471 %
+training @ iter =  5900
+training @ iter =  6000
+training @ iter =  6100
+training @ iter =  6200
+epoch 16, minibatch 390/390, validation error 2.574119 %
+     epoch 16, minibatch 390/390, test error of best model 2.624199 %
+training @ iter =  6300
+training @ iter =  6400
+training @ iter =  6500
+training @ iter =  6600
+epoch 17, minibatch 390/390, validation error 2.433894 %
+     epoch 17, minibatch 390/390, test error of best model 2.443910 %
+training @ iter =  6700
+training @ iter =  6800
+training @ iter =  6900
+training @ iter =  7000
+epoch 18, minibatch 390/390, validation error 2.283654 %
+     epoch 18, minibatch 390/390, test error of best model 2.283654 %
+training @ iter =  7100
+training @ iter =  7200
+training @ iter =  7300
+training @ iter =  7400
+epoch 19, minibatch 390/390, validation error 2.203526 %
+     epoch 19, minibatch 390/390, test error of best model 2.233574 %
+training @ iter =  7500
+training @ iter =  7600
+training @ iter =  7700
+epoch 20, minibatch 390/390, validation error 2.133413 %
+     epoch 20, minibatch 390/390, test error of best model 2.193510 %
+training @ iter =  7800
+training @ iter =  7900
+training @ iter =  8000
+training @ iter =  8100
+epoch 21, minibatch 390/390, validation error 2.103365 %
+     epoch 21, minibatch 390/390, test error of best model 2.093349 %
+training @ iter =  8200
+training @ iter =  8300
+training @ iter =  8400
+training @ iter =  8500
+epoch 22, minibatch 390/390, validation error 2.003205 %
+     epoch 22, minibatch 390/390, test error of best model 2.043269 %
+training @ iter =  8600
+training @ iter =  8700
+training @ iter =  8800
+training @ iter =  8900
+epoch 23, minibatch 390/390, validation error 1.963141 %
+     epoch 23, minibatch 390/390, test error of best model 1.963141 %
+training @ iter =  9000
+training @ iter =  9100
+training @ iter =  9200
+training @ iter =  9300
+epoch 24, minibatch 390/390, validation error 1.943109 %
+     epoch 24, minibatch 390/390, test error of best model 1.923077 %
+training @ iter =  9400
+training @ iter =  9500
+training @ iter =  9600
+training @ iter =  9700
+epoch 25, minibatch 390/390, validation error 1.913061 %
+     epoch 25, minibatch 390/390, test error of best model 1.893029 %
+training @ iter =  9800
+training @ iter =  9900
+training @ iter =  10000
+training @ iter =  10100
+epoch 26, minibatch 390/390, validation error 1.893029 %
+     epoch 26, minibatch 390/390, test error of best model 1.832933 %
+training @ iter =  10200
+training @ iter =  10300
+training @ iter =  10400
+training @ iter =  10500
+epoch 27, minibatch 390/390, validation error 1.832933 %
+     epoch 27, minibatch 390/390, test error of best model 1.792869 %
+training @ iter =  10600
+training @ iter =  10700
+training @ iter =  10800
+training @ iter =  10900
+epoch 28, minibatch 390/390, validation error 1.782853 %
+     epoch 28, minibatch 390/390, test error of best model 1.752804 %
+training @ iter =  11000
+training @ iter =  11100
+training @ iter =  11200
+training @ iter =  11300
+epoch 29, minibatch 390/390, validation error 1.742788 %
+     epoch 29, minibatch 390/390, test error of best model 1.732772 %
+training @ iter =  11400
+training @ iter =  11500
+training @ iter =  11600
+epoch 30, minibatch 390/390, validation error 1.722756 %
+     epoch 30, minibatch 390/390, test error of best model 1.682692 %
+training @ iter =  11700
+training @ iter =  11800
+training @ iter =  11900
+training @ iter =  12000
+epoch 31, minibatch 390/390, validation error 1.692708 %
+     epoch 31, minibatch 390/390, test error of best model 1.622596 %
+training @ iter =  12100
+training @ iter =  12200
+training @ iter =  12300
+training @ iter =  12400
+epoch 32, minibatch 390/390, validation error 1.672676 %
+     epoch 32, minibatch 390/390, test error of best model 1.582532 %
+training @ iter =  12500
+training @ iter =  12600
+training @ iter =  12700
+training @ iter =  12800
+epoch 33, minibatch 390/390, validation error 1.612580 %
+     epoch 33, minibatch 390/390, test error of best model 1.592548 %
+training @ iter =  12900
+training @ iter =  13000
+training @ iter =  13100
+training @ iter =  13200
+epoch 34, minibatch 390/390, validation error 1.612580 %
+training @ iter =  13300
+training @ iter =  13400
+training @ iter =  13500
+training @ iter =  13600
+epoch 35, minibatch 390/390, validation error 1.592548 %
+     epoch 35, minibatch 390/390, test error of best model 1.562500 %
+training @ iter =  13700
+training @ iter =  13800
+training @ iter =  13900
+training @ iter =  14000
+epoch 36, minibatch 390/390, validation error 1.572516 %
+     epoch 36, minibatch 390/390, test error of best model 1.512420 %
+training @ iter =  14100
+training @ iter =  14200
+training @ iter =  14300
+training @ iter =  14400
+epoch 37, minibatch 390/390, validation error 1.562500 %
+     epoch 37, minibatch 390/390, test error of best model 1.492388 %
+training @ iter =  14500
+training @ iter =  14600
+training @ iter =  14700
+training @ iter =  14800
+epoch 38, minibatch 390/390, validation error 1.542468 %
+     epoch 38, minibatch 390/390, test error of best model 1.482372 %
+training @ iter =  14900
+training @ iter =  15000
+training @ iter =  15100
+training @ iter =  15200
+epoch 39, minibatch 390/390, validation error 1.522436 %
+     epoch 39, minibatch 390/390, test error of best model 1.442308 %
+training @ iter =  15300
+training @ iter =  15400
+training @ iter =  15500
+epoch 40, minibatch 390/390, validation error 1.462340 %
+     epoch 40, minibatch 390/390, test error of best model 1.422276 %
+training @ iter =  15600
+training @ iter =  15700
+training @ iter =  15800
+training @ iter =  15900
+epoch 41, minibatch 390/390, validation error 1.462340 %
+training @ iter =  16000
+training @ iter =  16100
+training @ iter =  16200
+training @ iter =  16300
+epoch 42, minibatch 390/390, validation error 1.442308 %
+     epoch 42, minibatch 390/390, test error of best model 1.362179 %
+training @ iter =  16400
+training @ iter =  16500
+training @ iter =  16600
+training @ iter =  16700
+epoch 43, minibatch 390/390, validation error 1.432292 %
+     epoch 43, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  16800
+training @ iter =  16900
+training @ iter =  17000
+training @ iter =  17100
+epoch 44, minibatch 390/390, validation error 1.412260 %
+     epoch 44, minibatch 390/390, test error of best model 1.332131 %
+training @ iter =  17200
+training @ iter =  17300
+training @ iter =  17400
+training @ iter =  17500
+epoch 45, minibatch 390/390, validation error 1.402244 %
+     epoch 45, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  17600
+training @ iter =  17700
+training @ iter =  17800
+training @ iter =  17900
+epoch 46, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18000
+training @ iter =  18100
+training @ iter =  18200
+training @ iter =  18300
+epoch 47, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18400
+training @ iter =  18500
+training @ iter =  18600
+training @ iter =  18700
+epoch 48, minibatch 390/390, validation error 1.392228 %
+     epoch 48, minibatch 390/390, test error of best model 1.322115 %
+training @ iter =  18800
+training @ iter =  18900
+training @ iter =  19000
+training @ iter =  19100
+epoch 49, minibatch 390/390, validation error 1.372196 %
+     epoch 49, minibatch 390/390, test error of best model 1.312099 %
+training @ iter =  19200
+training @ iter =  19300
+training @ iter =  19400
+epoch 50, minibatch 390/390, validation error 1.372196 %
+training @ iter =  19500
+training @ iter =  19600
+training @ iter =  19700
+training @ iter =  19800
+epoch 51, minibatch 390/390, validation error 1.352163 %
+     epoch 51, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  19900
+training @ iter =  20000
+training @ iter =  20100
+training @ iter =  20200
+epoch 52, minibatch 390/390, validation error 1.322115 %
+     epoch 52, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  20300
+training @ iter =  20400
+training @ iter =  20500
+training @ iter =  20600
+epoch 53, minibatch 390/390, validation error 1.322115 %
+training @ iter =  20700
+training @ iter =  20800
+training @ iter =  20900
+training @ iter =  21000
+epoch 54, minibatch 390/390, validation error 1.292067 %
+     epoch 54, minibatch 390/390, test error of best model 1.262019 %
+training @ iter =  21100
+training @ iter =  21200
+training @ iter =  21300
+training @ iter =  21400
+epoch 55, minibatch 390/390, validation error 1.282051 %
+     epoch 55, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21500
+training @ iter =  21600
+training @ iter =  21700
+training @ iter =  21800
+epoch 56, minibatch 390/390, validation error 1.272035 %
+     epoch 56, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21900
+training @ iter =  22000
+training @ iter =  22100
+training @ iter =  22200
+epoch 57, minibatch 390/390, validation error 1.231971 %
+     epoch 57, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  22300
+training @ iter =  22400
+training @ iter =  22500
+training @ iter =  22600
+epoch 58, minibatch 390/390, validation error 1.211939 %
+     epoch 58, minibatch 390/390, test error of best model 1.252003 %
+training @ iter =  22700
+training @ iter =  22800
+training @ iter =  22900
+training @ iter =  23000
+epoch 59, minibatch 390/390, validation error 1.211939 %
+training @ iter =  23100
+training @ iter =  23200
+training @ iter =  23300
+epoch 60, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23400
+training @ iter =  23500
+training @ iter =  23600
+training @ iter =  23700
+epoch 61, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23800
+training @ iter =  23900
+training @ iter =  24000
+training @ iter =  24100
+epoch 62, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24200
+training @ iter =  24300
+training @ iter =  24400
+training @ iter =  24500
+epoch 63, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24600
+training @ iter =  24700
+training @ iter =  24800
+training @ iter =  24900
+epoch 64, minibatch 390/390, validation error 1.201923 %
+     epoch 64, minibatch 390/390, test error of best model 1.161859 %
+training @ iter =  25000
+training @ iter =  25100
+training @ iter =  25200
+training @ iter =  25300
+epoch 65, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25400
+training @ iter =  25500
+training @ iter =  25600
+training @ iter =  25700
+epoch 66, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25800
+training @ iter =  25900
+training @ iter =  26000
+training @ iter =  26100
+epoch 67, minibatch 390/390, validation error 1.191907 %
+     epoch 67, minibatch 390/390, test error of best model 1.131811 %
+training @ iter =  26200
+training @ iter =  26300
+training @ iter =  26400
+training @ iter =  26500
+epoch 68, minibatch 390/390, validation error 1.171875 %
+     epoch 68, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  26600
+training @ iter =  26700
+training @ iter =  26800
+training @ iter =  26900
+epoch 69, minibatch 390/390, validation error 1.171875 %
+training @ iter =  27000
+training @ iter =  27100
+training @ iter =  27200
+epoch 70, minibatch 390/390, validation error 1.161859 %
+     epoch 70, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  27300
+training @ iter =  27400
+training @ iter =  27500
+training @ iter =  27600
+epoch 71, minibatch 390/390, validation error 1.161859 %
+training @ iter =  27700
+training @ iter =  27800
+training @ iter =  27900
+training @ iter =  28000
+epoch 72, minibatch 390/390, validation error 1.171875 %
+training @ iter =  28100
+training @ iter =  28200
+training @ iter =  28300
+training @ iter =  28400
+epoch 73, minibatch 390/390, validation error 1.161859 %
+training @ iter =  28500
+training @ iter =  28600
+training @ iter =  28700
+training @ iter =  28800
+epoch 74, minibatch 390/390, validation error 1.141827 %
+     epoch 74, minibatch 390/390, test error of best model 1.071715 %
+training @ iter =  28900
+training @ iter =  29000
+training @ iter =  29100
+training @ iter =  29200
+epoch 75, minibatch 390/390, validation error 1.141827 %
+training @ iter =  29300
+training @ iter =  29400
+training @ iter =  29500
+training @ iter =  29600
+epoch 76, minibatch 390/390, validation error 1.151843 %
+training @ iter =  29700
+training @ iter =  29800
+training @ iter =  29900
+training @ iter =  30000
+epoch 77, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30100
+training @ iter =  30200
+training @ iter =  30300
+training @ iter =  30400
+epoch 78, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30500
+training @ iter =  30600
+training @ iter =  30700
+training @ iter =  30800
+epoch 79, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30900
+training @ iter =  31000
+training @ iter =  31100
+epoch 80, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31200
+training @ iter =  31300
+training @ iter =  31400
+training @ iter =  31500
+epoch 81, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31600
+training @ iter =  31700
+training @ iter =  31800
+training @ iter =  31900
+epoch 82, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32000
+training @ iter =  32100
+training @ iter =  32200
+training @ iter =  32300
+epoch 83, minibatch 390/390, validation error 1.171875 %
+training @ iter =  32400
+training @ iter =  32500
+training @ iter =  32600
+training @ iter =  32700
+epoch 84, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32800
+training @ iter =  32900
+training @ iter =  33000
+training @ iter =  33100
+epoch 85, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33200
+training @ iter =  33300
+training @ iter =  33400
+training @ iter =  33500
+epoch 86, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33600
+training @ iter =  33700
+training @ iter =  33800
+training @ iter =  33900
+epoch 87, minibatch 390/390, validation error 1.121795 %
+     epoch 87, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34000
+training @ iter =  34100
+training @ iter =  34200
+training @ iter =  34300
+epoch 88, minibatch 390/390, validation error 1.111779 %
+     epoch 88, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34400
+training @ iter =  34500
+training @ iter =  34600
+training @ iter =  34700
+epoch 89, minibatch 390/390, validation error 1.101763 %
+     epoch 89, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34800
+training @ iter =  34900
+training @ iter =  35000
+epoch 90, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35100
+training @ iter =  35200
+training @ iter =  35300
+training @ iter =  35400
+epoch 91, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35500
+training @ iter =  35600
+training @ iter =  35700
+training @ iter =  35800
+epoch 92, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35900
+training @ iter =  36000
+training @ iter =  36100
+training @ iter =  36200
+epoch 93, minibatch 390/390, validation error 1.091747 %
+     epoch 93, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  36300
+training @ iter =  36400
+training @ iter =  36500
+training @ iter =  36600
+epoch 94, minibatch 390/390, validation error 1.091747 %
+training @ iter =  36700
+training @ iter =  36800
+training @ iter =  36900
+training @ iter =  37000
+epoch 95, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37100
+training @ iter =  37200
+training @ iter =  37300
+training @ iter =  37400
+epoch 96, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37500
+training @ iter =  37600
+training @ iter =  37700
+training @ iter =  37800
+epoch 97, minibatch 390/390, validation error 1.091747 %
+training @ iter =  37900
+training @ iter =  38000
+training @ iter =  38100
+training @ iter =  38200
+epoch 98, minibatch 390/390, validation error 1.101763 %
+training @ iter =  38300
+training @ iter =  38400
+training @ iter =  38500
+training @ iter =  38600
+epoch 99, minibatch 390/390, validation error 1.091747 %
+training @ iter =  38700
+training @ iter =  38800
+training @ iter =  38900
+epoch 100, minibatch 390/390, validation error 1.091747 %
+training @ iter =  39000
+training @ iter =  39100
+training @ iter =  39200
+training @ iter =  39300
+epoch 101, minibatch 390/390, validation error 1.081731 %
+     epoch 101, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  39400
+training @ iter =  39500
+training @ iter =  39600
+training @ iter =  39700
+epoch 102, minibatch 390/390, validation error 1.081731 %
+training @ iter =  39800
+training @ iter =  39900
+training @ iter =  40000
+training @ iter =  40100
+epoch 103, minibatch 390/390, validation error 1.061699 %
+     epoch 103, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  40200
+training @ iter =  40300
+training @ iter =  40400
+training @ iter =  40500
+epoch 104, minibatch 390/390, validation error 1.071715 %
+training @ iter =  40600
+training @ iter =  40700
+training @ iter =  40800
+training @ iter =  40900
+epoch 105, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41000
+training @ iter =  41100
+training @ iter =  41200
+training @ iter =  41300
+epoch 106, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41400
+training @ iter =  41500
+training @ iter =  41600
+training @ iter =  41700
+epoch 107, minibatch 390/390, validation error 1.081731 %
+training @ iter =  41800
+training @ iter =  41900
+training @ iter =  42000
+training @ iter =  42100
+epoch 108, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42200
+training @ iter =  42300
+training @ iter =  42400
+training @ iter =  42500
+epoch 109, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42600
+training @ iter =  42700
+training @ iter =  42800
+epoch 110, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42900
+training @ iter =  43000
+training @ iter =  43100
+training @ iter =  43200
+epoch 111, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43300
+training @ iter =  43400
+training @ iter =  43500
+training @ iter =  43600
+epoch 112, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43700
+training @ iter =  43800
+training @ iter =  43900
+training @ iter =  44000
+epoch 113, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44100
+training @ iter =  44200
+training @ iter =  44300
+training @ iter =  44400
+epoch 114, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44500
+training @ iter =  44600
+training @ iter =  44700
+training @ iter =  44800
+epoch 115, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44900
+training @ iter =  45000
+training @ iter =  45100
+training @ iter =  45200
+epoch 116, minibatch 390/390, validation error 1.091747 %
+training @ iter =  45300
+training @ iter =  45400
+training @ iter =  45500
+training @ iter =  45600
+epoch 117, minibatch 390/390, validation error 1.101763 %
+training @ iter =  45700
+training @ iter =  45800
+training @ iter =  45900
+training @ iter =  46000
+epoch 118, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46100
+training @ iter =  46200
+training @ iter =  46300
+training @ iter =  46400
+epoch 119, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46500
+training @ iter =  46600
+training @ iter =  46700
+epoch 120, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46800
+training @ iter =  46900
+training @ iter =  47000
+training @ iter =  47100
+epoch 121, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47200
+training @ iter =  47300
+training @ iter =  47400
+training @ iter =  47500
+epoch 122, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47600
+training @ iter =  47700
+training @ iter =  47800
+training @ iter =  47900
+epoch 123, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48000
+training @ iter =  48100
+training @ iter =  48200
+training @ iter =  48300
+epoch 124, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48400
+training @ iter =  48500
+training @ iter =  48600
+training @ iter =  48700
+epoch 125, minibatch 390/390, validation error 1.091747 %
+training @ iter =  48800
+training @ iter =  48900
+training @ iter =  49000
+training @ iter =  49100
+epoch 126, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49200
+training @ iter =  49300
+training @ iter =  49400
+training @ iter =  49500
+epoch 127, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49600
+training @ iter =  49700
+training @ iter =  49800
+training @ iter =  49900
+epoch 128, minibatch 390/390, validation error 1.091747 %
+training @ iter =  50000
+training @ iter =  50100
+training @ iter =  50200
+training @ iter =  50300
+epoch 129, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50400
+training @ iter =  50500
+training @ iter =  50600
+epoch 130, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50700
+training @ iter =  50800
+training @ iter =  50900
+training @ iter =  51000
+epoch 131, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51100
+training @ iter =  51200
+training @ iter =  51300
+training @ iter =  51400
+epoch 132, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51500
+training @ iter =  51600
+training @ iter =  51700
+training @ iter =  51800
+epoch 133, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51900
+training @ iter =  52000
+training @ iter =  52100
+training @ iter =  52200
+epoch 134, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52300
+training @ iter =  52400
+training @ iter =  52500
+training @ iter =  52600
+epoch 135, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52700
+training @ iter =  52800
+training @ iter =  52900
+training @ iter =  53000
+epoch 136, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53100
+training @ iter =  53200
+training @ iter =  53300
+training @ iter =  53400
+epoch 137, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53500
+training @ iter =  53600
+training @ iter =  53700
+training @ iter =  53800
+epoch 138, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53900
+training @ iter =  54000
+training @ iter =  54100
+training @ iter =  54200
+epoch 139, minibatch 390/390, validation error 1.111779 %
+training @ iter =  54300
+training @ iter =  54400
+training @ iter =  54500
+epoch 140, minibatch 390/390, validation error 1.101763 %
+training @ iter =  54600
+training @ iter =  54700
+training @ iter =  54800
+training @ iter =  54900
+epoch 141, minibatch 390/390, validation error 1.101763 %
+training @ iter =  55000
+training @ iter =  55100
+training @ iter =  55200
+training @ iter =  55300
+epoch 142, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55400
+training @ iter =  55500
+training @ iter =  55600
+training @ iter =  55700
+epoch 143, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55800
+training @ iter =  55900
+training @ iter =  56000
+training @ iter =  56100
+epoch 144, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56200
+training @ iter =  56300
+training @ iter =  56400
+training @ iter =  56500
+epoch 145, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56600
+training @ iter =  56700
+training @ iter =  56800
+training @ iter =  56900
+epoch 146, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57000
+training @ iter =  57100
+training @ iter =  57200
+training @ iter =  57300
+epoch 147, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57400
+training @ iter =  57500
+training @ iter =  57600
+training @ iter =  57700
+epoch 148, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57800
+training @ iter =  57900
+training @ iter =  58000
+training @ iter =  58100
+epoch 149, minibatch 390/390, validation error 1.071715 %
+training @ iter =  58200
+training @ iter =  58300
+training @ iter =  58400
+epoch 150, minibatch 390/390, validation error 1.071715 %
+Optimization complete.
+Best validation score of 1.061699 % obtained at iteration 40170, with test performance 0.961538 %
+... loading data
+... building the model
+... training
+epoch 149, minibatch 390/390, validation error 2.634215 %
+     epoch 149, minibatch 390/390, test error of best model 2.584135 %
+Save model to results/mlp
+Optimization complete. Best validation score of 2.634215 % obtained at iteration 58110, with test performance 2.584135 %
+... loading data
+... building the model
+... training
+training @ iter =  0
+training @ iter =  100
+training @ iter =  200
+training @ iter =  300
+epoch 1, minibatch 390/390, validation error 25.520833 %
+     epoch 1, minibatch 390/390, test error of best model 25.781250 %
+training @ iter =  400
+training @ iter =  500
+training @ iter =  600
+training @ iter =  700
+epoch 2, minibatch 390/390, validation error 13.281250 %
+     epoch 2, minibatch 390/390, test error of best model 13.651843 %
+training @ iter =  800
+training @ iter =  900
+training @ iter =  1000
+training @ iter =  1100
+epoch 3, minibatch 390/390, validation error 9.204728 %
+     epoch 3, minibatch 390/390, test error of best model 9.725561 %
+training @ iter =  1200
+training @ iter =  1300
+training @ iter =  1400
+training @ iter =  1500
+epoch 4, minibatch 390/390, validation error 7.361779 %
+     epoch 4, minibatch 390/390, test error of best model 7.762420 %
+training @ iter =  1600
+training @ iter =  1700
+training @ iter =  1800
+training @ iter =  1900
+epoch 5, minibatch 390/390, validation error 6.149840 %
+     epoch 5, minibatch 390/390, test error of best model 6.280048 %
+training @ iter =  2000
+training @ iter =  2100
+training @ iter =  2200
+training @ iter =  2300
+epoch 6, minibatch 390/390, validation error 5.468750 %
+     epoch 6, minibatch 390/390, test error of best model 5.588942 %
+training @ iter =  2400
+training @ iter =  2500
+training @ iter =  2600
+training @ iter =  2700
+epoch 7, minibatch 390/390, validation error 4.827724 %
+     epoch 7, minibatch 390/390, test error of best model 4.997997 %
+training @ iter =  2800
+training @ iter =  2900
+training @ iter =  3000
+training @ iter =  3100
+epoch 8, minibatch 390/390, validation error 4.346955 %
+     epoch 8, minibatch 390/390, test error of best model 4.557292 %
+training @ iter =  3200
+training @ iter =  3300
+training @ iter =  3400
+training @ iter =  3500
+epoch 9, minibatch 390/390, validation error 4.046474 %
+     epoch 9, minibatch 390/390, test error of best model 4.146635 %
+training @ iter =  3600
+training @ iter =  3700
+training @ iter =  3800
+epoch 10, minibatch 390/390, validation error 3.625801 %
+     epoch 10, minibatch 390/390, test error of best model 3.826122 %
+training @ iter =  3900
+training @ iter =  4000
+training @ iter =  4100
+training @ iter =  4200
+epoch 11, minibatch 390/390, validation error 3.315304 %
+     epoch 11, minibatch 390/390, test error of best model 3.545673 %
+training @ iter =  4300
+training @ iter =  4400
+training @ iter =  4500
+training @ iter =  4600
+epoch 12, minibatch 390/390, validation error 3.034856 %
+     epoch 12, minibatch 390/390, test error of best model 3.295272 %
+training @ iter =  4700
+training @ iter =  4800
+training @ iter =  4900
+training @ iter =  5000
+epoch 13, minibatch 390/390, validation error 2.964744 %
+     epoch 13, minibatch 390/390, test error of best model 3.094952 %
+training @ iter =  5100
+training @ iter =  5200
+training @ iter =  5300
+training @ iter =  5400
+epoch 14, minibatch 390/390, validation error 2.814503 %
+     epoch 14, minibatch 390/390, test error of best model 2.954728 %
+training @ iter =  5500
+training @ iter =  5600
+training @ iter =  5700
+training @ iter =  5800
+epoch 15, minibatch 390/390, validation error 2.684295 %
+     epoch 15, minibatch 390/390, test error of best model 2.794471 %
+training @ iter =  5900
+training @ iter =  6000
+training @ iter =  6100
+training @ iter =  6200
+epoch 16, minibatch 390/390, validation error 2.574119 %
+     epoch 16, minibatch 390/390, test error of best model 2.624199 %
+training @ iter =  6300
+training @ iter =  6400
+training @ iter =  6500
+training @ iter =  6600
+epoch 17, minibatch 390/390, validation error 2.433894 %
+     epoch 17, minibatch 390/390, test error of best model 2.443910 %
+training @ iter =  6700
+training @ iter =  6800
+training @ iter =  6900
+training @ iter =  7000
+epoch 18, minibatch 390/390, validation error 2.283654 %
+     epoch 18, minibatch 390/390, test error of best model 2.283654 %
+training @ iter =  7100
+training @ iter =  7200
+training @ iter =  7300
+training @ iter =  7400
+epoch 19, minibatch 390/390, validation error 2.203526 %
+     epoch 19, minibatch 390/390, test error of best model 2.233574 %
+training @ iter =  7500
+training @ iter =  7600
+training @ iter =  7700
+epoch 20, minibatch 390/390, validation error 2.133413 %
+     epoch 20, minibatch 390/390, test error of best model 2.193510 %
+training @ iter =  7800
+training @ iter =  7900
+training @ iter =  8000
+training @ iter =  8100
+epoch 21, minibatch 390/390, validation error 2.103365 %
+     epoch 21, minibatch 390/390, test error of best model 2.093349 %
+training @ iter =  8200
+training @ iter =  8300
+training @ iter =  8400
+training @ iter =  8500
+epoch 22, minibatch 390/390, validation error 2.003205 %
+     epoch 22, minibatch 390/390, test error of best model 2.043269 %
+training @ iter =  8600
+training @ iter =  8700
+training @ iter =  8800
+training @ iter =  8900
+epoch 23, minibatch 390/390, validation error 1.963141 %
+     epoch 23, minibatch 390/390, test error of best model 1.963141 %
+training @ iter =  9000
+training @ iter =  9100
+training @ iter =  9200
+training @ iter =  9300
+epoch 24, minibatch 390/390, validation error 1.943109 %
+     epoch 24, minibatch 390/390, test error of best model 1.923077 %
+training @ iter =  9400
+training @ iter =  9500
+training @ iter =  9600
+training @ iter =  9700
+epoch 25, minibatch 390/390, validation error 1.913061 %
+     epoch 25, minibatch 390/390, test error of best model 1.893029 %
+training @ iter =  9800
+training @ iter =  9900
+training @ iter =  10000
+training @ iter =  10100
+epoch 26, minibatch 390/390, validation error 1.893029 %
+     epoch 26, minibatch 390/390, test error of best model 1.832933 %
+training @ iter =  10200
+training @ iter =  10300
+training @ iter =  10400
+training @ iter =  10500
+epoch 27, minibatch 390/390, validation error 1.832933 %
+     epoch 27, minibatch 390/390, test error of best model 1.792869 %
+training @ iter =  10600
+training @ iter =  10700
+training @ iter =  10800
+training @ iter =  10900
+epoch 28, minibatch 390/390, validation error 1.782853 %
+     epoch 28, minibatch 390/390, test error of best model 1.752804 %
+training @ iter =  11000
+training @ iter =  11100
+training @ iter =  11200
+training @ iter =  11300
+epoch 29, minibatch 390/390, validation error 1.742788 %
+     epoch 29, minibatch 390/390, test error of best model 1.732772 %
+training @ iter =  11400
+training @ iter =  11500
+training @ iter =  11600
+epoch 30, minibatch 390/390, validation error 1.722756 %
+     epoch 30, minibatch 390/390, test error of best model 1.682692 %
+training @ iter =  11700
+training @ iter =  11800
+training @ iter =  11900
+training @ iter =  12000
+epoch 31, minibatch 390/390, validation error 1.692708 %
+     epoch 31, minibatch 390/390, test error of best model 1.622596 %
+training @ iter =  12100
+training @ iter =  12200
+training @ iter =  12300
+training @ iter =  12400
+epoch 32, minibatch 390/390, validation error 1.672676 %
+     epoch 32, minibatch 390/390, test error of best model 1.582532 %
+training @ iter =  12500
+training @ iter =  12600
+training @ iter =  12700
+training @ iter =  12800
+epoch 33, minibatch 390/390, validation error 1.612580 %
+     epoch 33, minibatch 390/390, test error of best model 1.592548 %
+training @ iter =  12900
+training @ iter =  13000
+training @ iter =  13100
+training @ iter =  13200
+epoch 34, minibatch 390/390, validation error 1.612580 %
+training @ iter =  13300
+training @ iter =  13400
+training @ iter =  13500
+training @ iter =  13600
+epoch 35, minibatch 390/390, validation error 1.592548 %
+     epoch 35, minibatch 390/390, test error of best model 1.562500 %
+training @ iter =  13700
+training @ iter =  13800
+training @ iter =  13900
+training @ iter =  14000
+epoch 36, minibatch 390/390, validation error 1.572516 %
+     epoch 36, minibatch 390/390, test error of best model 1.512420 %
+training @ iter =  14100
+training @ iter =  14200
+training @ iter =  14300
+training @ iter =  14400
+epoch 37, minibatch 390/390, validation error 1.562500 %
+     epoch 37, minibatch 390/390, test error of best model 1.492388 %
+training @ iter =  14500
+training @ iter =  14600
+training @ iter =  14700
+training @ iter =  14800
+epoch 38, minibatch 390/390, validation error 1.542468 %
+     epoch 38, minibatch 390/390, test error of best model 1.482372 %
+training @ iter =  14900
+training @ iter =  15000
+training @ iter =  15100
+training @ iter =  15200
+epoch 39, minibatch 390/390, validation error 1.522436 %
+     epoch 39, minibatch 390/390, test error of best model 1.442308 %
+training @ iter =  15300
+training @ iter =  15400
+training @ iter =  15500
+epoch 40, minibatch 390/390, validation error 1.462340 %
+     epoch 40, minibatch 390/390, test error of best model 1.422276 %
+training @ iter =  15600
+training @ iter =  15700
+training @ iter =  15800
+training @ iter =  15900
+epoch 41, minibatch 390/390, validation error 1.462340 %
+training @ iter =  16000
+training @ iter =  16100
+training @ iter =  16200
+training @ iter =  16300
+epoch 42, minibatch 390/390, validation error 1.442308 %
+     epoch 42, minibatch 390/390, test error of best model 1.362179 %
+training @ iter =  16400
+training @ iter =  16500
+training @ iter =  16600
+training @ iter =  16700
+epoch 43, minibatch 390/390, validation error 1.432292 %
+     epoch 43, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  16800
+training @ iter =  16900
+training @ iter =  17000
+training @ iter =  17100
+epoch 44, minibatch 390/390, validation error 1.412260 %
+     epoch 44, minibatch 390/390, test error of best model 1.332131 %
+training @ iter =  17200
+training @ iter =  17300
+training @ iter =  17400
+training @ iter =  17500
+epoch 45, minibatch 390/390, validation error 1.402244 %
+     epoch 45, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  17600
+training @ iter =  17700
+training @ iter =  17800
+training @ iter =  17900
+epoch 46, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18000
+training @ iter =  18100
+training @ iter =  18200
+training @ iter =  18300
+epoch 47, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18400
+training @ iter =  18500
+training @ iter =  18600
+training @ iter =  18700
+epoch 48, minibatch 390/390, validation error 1.392228 %
+     epoch 48, minibatch 390/390, test error of best model 1.322115 %
+training @ iter =  18800
+training @ iter =  18900
+training @ iter =  19000
+training @ iter =  19100
+epoch 49, minibatch 390/390, validation error 1.372196 %
+     epoch 49, minibatch 390/390, test error of best model 1.312099 %
+training @ iter =  19200
+training @ iter =  19300
+training @ iter =  19400
+epoch 50, minibatch 390/390, validation error 1.372196 %
+training @ iter =  19500
+training @ iter =  19600
+training @ iter =  19700
+training @ iter =  19800
+epoch 51, minibatch 390/390, validation error 1.352163 %
+     epoch 51, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  19900
+training @ iter =  20000
+training @ iter =  20100
+training @ iter =  20200
+epoch 52, minibatch 390/390, validation error 1.322115 %
+     epoch 52, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  20300
+training @ iter =  20400
+training @ iter =  20500
+training @ iter =  20600
+epoch 53, minibatch 390/390, validation error 1.322115 %
+training @ iter =  20700
+training @ iter =  20800
+training @ iter =  20900
+training @ iter =  21000
+epoch 54, minibatch 390/390, validation error 1.292067 %
+     epoch 54, minibatch 390/390, test error of best model 1.262019 %
+training @ iter =  21100
+training @ iter =  21200
+training @ iter =  21300
+training @ iter =  21400
+epoch 55, minibatch 390/390, validation error 1.282051 %
+     epoch 55, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21500
+training @ iter =  21600
+training @ iter =  21700
+training @ iter =  21800
+epoch 56, minibatch 390/390, validation error 1.272035 %
+     epoch 56, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21900
+training @ iter =  22000
+training @ iter =  22100
+training @ iter =  22200
+epoch 57, minibatch 390/390, validation error 1.231971 %
+     epoch 57, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  22300
+training @ iter =  22400
+training @ iter =  22500
+training @ iter =  22600
+epoch 58, minibatch 390/390, validation error 1.211939 %
+     epoch 58, minibatch 390/390, test error of best model 1.252003 %
+training @ iter =  22700
+training @ iter =  22800
+training @ iter =  22900
+training @ iter =  23000
+epoch 59, minibatch 390/390, validation error 1.211939 %
+training @ iter =  23100
+training @ iter =  23200
+training @ iter =  23300
+epoch 60, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23400
+training @ iter =  23500
+training @ iter =  23600
+training @ iter =  23700
+epoch 61, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23800
+training @ iter =  23900
+training @ iter =  24000
+training @ iter =  24100
+epoch 62, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24200
+training @ iter =  24300
+training @ iter =  24400
+training @ iter =  24500
+epoch 63, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24600
+training @ iter =  24700
+training @ iter =  24800
+training @ iter =  24900
+epoch 64, minibatch 390/390, validation error 1.201923 %
+     epoch 64, minibatch 390/390, test error of best model 1.161859 %
+training @ iter =  25000
+training @ iter =  25100
+training @ iter =  25200
+training @ iter =  25300
+epoch 65, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25400
+training @ iter =  25500
+training @ iter =  25600
+training @ iter =  25700
+epoch 66, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25800
+training @ iter =  25900
+training @ iter =  26000
+training @ iter =  26100
+epoch 67, minibatch 390/390, validation error 1.191907 %
+     epoch 67, minibatch 390/390, test error of best model 1.131811 %
+training @ iter =  26200
+training @ iter =  26300
+training @ iter =  26400
+training @ iter =  26500
+epoch 68, minibatch 390/390, validation error 1.171875 %
+     epoch 68, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  26600
+training @ iter =  26700
+training @ iter =  26800
+training @ iter =  26900
+epoch 69, minibatch 390/390, validation error 1.171875 %
+training @ iter =  27000
+training @ iter =  27100
+training @ iter =  27200
+epoch 70, minibatch 390/390, validation error 1.161859 %
+     epoch 70, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  27300
+training @ iter =  27400
+training @ iter =  27500
+training @ iter =  27600
+epoch 71, minibatch 390/390, validation error 1.161859 %
+training @ iter =  27700
+training @ iter =  27800
+training @ iter =  27900
+training @ iter =  28000
+epoch 72, minibatch 390/390, validation error 1.171875 %
+training @ iter =  28100
+training @ iter =  28200
+training @ iter =  28300
+training @ iter =  28400
+epoch 73, minibatch 390/390, validation error 1.161859 %
+training @ iter =  28500
+training @ iter =  28600
+training @ iter =  28700
+training @ iter =  28800
+epoch 74, minibatch 390/390, validation error 1.141827 %
+     epoch 74, minibatch 390/390, test error of best model 1.071715 %
+training @ iter =  28900
+training @ iter =  29000
+training @ iter =  29100
+training @ iter =  29200
+epoch 75, minibatch 390/390, validation error 1.141827 %
+training @ iter =  29300
+training @ iter =  29400
+training @ iter =  29500
+training @ iter =  29600
+epoch 76, minibatch 390/390, validation error 1.151843 %
+training @ iter =  29700
+training @ iter =  29800
+training @ iter =  29900
+training @ iter =  30000
+epoch 77, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30100
+training @ iter =  30200
+training @ iter =  30300
+training @ iter =  30400
+epoch 78, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30500
+training @ iter =  30600
+training @ iter =  30700
+training @ iter =  30800
+epoch 79, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30900
+training @ iter =  31000
+training @ iter =  31100
+epoch 80, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31200
+training @ iter =  31300
+training @ iter =  31400
+training @ iter =  31500
+epoch 81, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31600
+training @ iter =  31700
+training @ iter =  31800
+training @ iter =  31900
+epoch 82, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32000
+training @ iter =  32100
+training @ iter =  32200
+training @ iter =  32300
+epoch 83, minibatch 390/390, validation error 1.171875 %
+training @ iter =  32400
+training @ iter =  32500
+training @ iter =  32600
+training @ iter =  32700
+epoch 84, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32800
+training @ iter =  32900
+training @ iter =  33000
+training @ iter =  33100
+epoch 85, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33200
+training @ iter =  33300
+training @ iter =  33400
+training @ iter =  33500
+epoch 86, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33600
+training @ iter =  33700
+training @ iter =  33800
+training @ iter =  33900
+epoch 87, minibatch 390/390, validation error 1.121795 %
+     epoch 87, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34000
+training @ iter =  34100
+training @ iter =  34200
+training @ iter =  34300
+epoch 88, minibatch 390/390, validation error 1.111779 %
+     epoch 88, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34400
+training @ iter =  34500
+training @ iter =  34600
+training @ iter =  34700
+epoch 89, minibatch 390/390, validation error 1.101763 %
+     epoch 89, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34800
+training @ iter =  34900
+training @ iter =  35000
+epoch 90, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35100
+training @ iter =  35200
+training @ iter =  35300
+training @ iter =  35400
+epoch 91, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35500
+training @ iter =  35600
+training @ iter =  35700
+training @ iter =  35800
+epoch 92, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35900
+training @ iter =  36000
+training @ iter =  36100
+training @ iter =  36200
+epoch 93, minibatch 390/390, validation error 1.091747 %
+     epoch 93, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  36300
+training @ iter =  36400
+training @ iter =  36500
+training @ iter =  36600
+epoch 94, minibatch 390/390, validation error 1.091747 %
+training @ iter =  36700
+training @ iter =  36800
+training @ iter =  36900
+training @ iter =  37000
+epoch 95, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37100
+training @ iter =  37200
+training @ iter =  37300
+training @ iter =  37400
+epoch 96, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37500
+training @ iter =  37600
+training @ iter =  37700
+training @ iter =  37800
+epoch 97, minibatch 390/390, validation error 1.091747 %
+training @ iter =  37900
+training @ iter =  38000
+training @ iter =  38100
+training @ iter =  38200
+epoch 98, minibatch 390/390, validation error 1.101763 %
+training @ iter =  38300
+training @ iter =  38400
+training @ iter =  38500
+training @ iter =  38600
+epoch 99, minibatch 390/390, validation error 1.091747 %
+training @ iter =  38700
+training @ iter =  38800
+training @ iter =  38900
+epoch 100, minibatch 390/390, validation error 1.091747 %
+training @ iter =  39000
+training @ iter =  39100
+training @ iter =  39200
+training @ iter =  39300
+epoch 101, minibatch 390/390, validation error 1.081731 %
+     epoch 101, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  39400
+training @ iter =  39500
+training @ iter =  39600
+training @ iter =  39700
+epoch 102, minibatch 390/390, validation error 1.081731 %
+training @ iter =  39800
+training @ iter =  39900
+training @ iter =  40000
+training @ iter =  40100
+epoch 103, minibatch 390/390, validation error 1.061699 %
+     epoch 103, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  40200
+training @ iter =  40300
+training @ iter =  40400
+training @ iter =  40500
+epoch 104, minibatch 390/390, validation error 1.071715 %
+training @ iter =  40600
+training @ iter =  40700
+training @ iter =  40800
+training @ iter =  40900
+epoch 105, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41000
+training @ iter =  41100
+training @ iter =  41200
+training @ iter =  41300
+epoch 106, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41400
+training @ iter =  41500
+training @ iter =  41600
+training @ iter =  41700
+epoch 107, minibatch 390/390, validation error 1.081731 %
+training @ iter =  41800
+training @ iter =  41900
+training @ iter =  42000
+training @ iter =  42100
+epoch 108, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42200
+training @ iter =  42300
+training @ iter =  42400
+training @ iter =  42500
+epoch 109, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42600
+training @ iter =  42700
+training @ iter =  42800
+epoch 110, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42900
+training @ iter =  43000
+training @ iter =  43100
+training @ iter =  43200
+epoch 111, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43300
+training @ iter =  43400
+training @ iter =  43500
+training @ iter =  43600
+epoch 112, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43700
+training @ iter =  43800
+training @ iter =  43900
+training @ iter =  44000
+epoch 113, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44100
+training @ iter =  44200
+training @ iter =  44300
+training @ iter =  44400
+epoch 114, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44500
+training @ iter =  44600
+training @ iter =  44700
+training @ iter =  44800
+epoch 115, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44900
+training @ iter =  45000
+training @ iter =  45100
+training @ iter =  45200
+epoch 116, minibatch 390/390, validation error 1.091747 %
+training @ iter =  45300
+training @ iter =  45400
+training @ iter =  45500
+training @ iter =  45600
+epoch 117, minibatch 390/390, validation error 1.101763 %
+training @ iter =  45700
+training @ iter =  45800
+training @ iter =  45900
+training @ iter =  46000
+epoch 118, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46100
+training @ iter =  46200
+training @ iter =  46300
+training @ iter =  46400
+epoch 119, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46500
+training @ iter =  46600
+training @ iter =  46700
+epoch 120, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46800
+training @ iter =  46900
+training @ iter =  47000
+training @ iter =  47100
+epoch 121, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47200
+training @ iter =  47300
+training @ iter =  47400
+training @ iter =  47500
+epoch 122, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47600
+training @ iter =  47700
+training @ iter =  47800
+training @ iter =  47900
+epoch 123, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48000
+training @ iter =  48100
+training @ iter =  48200
+training @ iter =  48300
+epoch 124, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48400
+training @ iter =  48500
+training @ iter =  48600
+training @ iter =  48700
+epoch 125, minibatch 390/390, validation error 1.091747 %
+training @ iter =  48800
+training @ iter =  48900
+training @ iter =  49000
+training @ iter =  49100
+epoch 126, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49200
+training @ iter =  49300
+training @ iter =  49400
+training @ iter =  49500
+epoch 127, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49600
+training @ iter =  49700
+training @ iter =  49800
+training @ iter =  49900
+epoch 128, minibatch 390/390, validation error 1.091747 %
+training @ iter =  50000
+training @ iter =  50100
+training @ iter =  50200
+training @ iter =  50300
+epoch 129, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50400
+training @ iter =  50500
+training @ iter =  50600
+epoch 130, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50700
+training @ iter =  50800
+training @ iter =  50900
+training @ iter =  51000
+epoch 131, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51100
+training @ iter =  51200
+training @ iter =  51300
+training @ iter =  51400
+epoch 132, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51500
+training @ iter =  51600
+training @ iter =  51700
+training @ iter =  51800
+epoch 133, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51900
+training @ iter =  52000
+training @ iter =  52100
+training @ iter =  52200
+epoch 134, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52300
+training @ iter =  52400
+training @ iter =  52500
+training @ iter =  52600
+epoch 135, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52700
+training @ iter =  52800
+training @ iter =  52900
+training @ iter =  53000
+epoch 136, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53100
+training @ iter =  53200
+training @ iter =  53300
+training @ iter =  53400
+epoch 137, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53500
+training @ iter =  53600
+training @ iter =  53700
+training @ iter =  53800
+epoch 138, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53900
+training @ iter =  54000
+training @ iter =  54100
+training @ iter =  54200
+epoch 139, minibatch 390/390, validation error 1.111779 %
+training @ iter =  54300
+training @ iter =  54400
+training @ iter =  54500
+epoch 140, minibatch 390/390, validation error 1.101763 %
+training @ iter =  54600
+training @ iter =  54700
+training @ iter =  54800
+training @ iter =  54900
+epoch 141, minibatch 390/390, validation error 1.101763 %
+training @ iter =  55000
+training @ iter =  55100
+training @ iter =  55200
+training @ iter =  55300
+epoch 142, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55400
+training @ iter =  55500
+training @ iter =  55600
+training @ iter =  55700
+epoch 143, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55800
+training @ iter =  55900
+training @ iter =  56000
+training @ iter =  56100
+epoch 144, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56200
+training @ iter =  56300
+training @ iter =  56400
+training @ iter =  56500
+epoch 145, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56600
+training @ iter =  56700
+training @ iter =  56800
+training @ iter =  56900
+epoch 146, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57000
+training @ iter =  57100
+training @ iter =  57200
+training @ iter =  57300
+epoch 147, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57400
+training @ iter =  57500
+training @ iter =  57600
+training @ iter =  57700
+epoch 148, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57800
+training @ iter =  57900
+training @ iter =  58000
+training @ iter =  58100
+epoch 149, minibatch 390/390, validation error 1.071715 %
+training @ iter =  58200
+training @ iter =  58300
+training @ iter =  58400
+epoch 150, minibatch 390/390, validation error 1.071715 %
+Optimization complete.
+Best validation score of 1.061699 % obtained at iteration 40170, with test performance 0.961538 %
+... loading data
+... building the model
+... training
+epoch 149, minibatch 390/390, validation error 2.634215 %
+     epoch 149, minibatch 390/390, test error of best model 2.584135 %
+Save model to results/mlp
+Optimization complete. Best validation score of 2.634215 % obtained at iteration 58110, with test performance 2.584135 %
+... loading data
+... building the model
+... training
+training @ iter =  0
+training @ iter =  100
+training @ iter =  200
+training @ iter =  300
+epoch 1, minibatch 390/390, validation error 25.520833 %
+     epoch 1, minibatch 390/390, test error of best model 25.781250 %
+training @ iter =  400
+training @ iter =  500
+training @ iter =  600
+training @ iter =  700
+epoch 2, minibatch 390/390, validation error 13.281250 %
+     epoch 2, minibatch 390/390, test error of best model 13.651843 %
+training @ iter =  800
+training @ iter =  900
+training @ iter =  1000
+training @ iter =  1100
+epoch 3, minibatch 390/390, validation error 9.204728 %
+     epoch 3, minibatch 390/390, test error of best model 9.725561 %
+training @ iter =  1200
+training @ iter =  1300
+training @ iter =  1400
+training @ iter =  1500
+epoch 4, minibatch 390/390, validation error 7.361779 %
+     epoch 4, minibatch 390/390, test error of best model 7.762420 %
+training @ iter =  1600
+training @ iter =  1700
+training @ iter =  1800
+training @ iter =  1900
+epoch 5, minibatch 390/390, validation error 6.149840 %
+     epoch 5, minibatch 390/390, test error of best model 6.280048 %
+training @ iter =  2000
+training @ iter =  2100
+training @ iter =  2200
+training @ iter =  2300
+epoch 6, minibatch 390/390, validation error 5.468750 %
+     epoch 6, minibatch 390/390, test error of best model 5.588942 %
+training @ iter =  2400
+training @ iter =  2500
+training @ iter =  2600
+training @ iter =  2700
+epoch 7, minibatch 390/390, validation error 4.827724 %
+     epoch 7, minibatch 390/390, test error of best model 4.997997 %
+training @ iter =  2800
+training @ iter =  2900
+training @ iter =  3000
+training @ iter =  3100
+epoch 8, minibatch 390/390, validation error 4.346955 %
+     epoch 8, minibatch 390/390, test error of best model 4.557292 %
+training @ iter =  3200
+training @ iter =  3300
+training @ iter =  3400
+training @ iter =  3500
+epoch 9, minibatch 390/390, validation error 4.046474 %
+     epoch 9, minibatch 390/390, test error of best model 4.146635 %
+training @ iter =  3600
+training @ iter =  3700
+training @ iter =  3800
+epoch 10, minibatch 390/390, validation error 3.625801 %
+     epoch 10, minibatch 390/390, test error of best model 3.826122 %
+training @ iter =  3900
+training @ iter =  4000
+training @ iter =  4100
+training @ iter =  4200
+epoch 11, minibatch 390/390, validation error 3.315304 %
+     epoch 11, minibatch 390/390, test error of best model 3.545673 %
+training @ iter =  4300
+training @ iter =  4400
+training @ iter =  4500
+training @ iter =  4600
+epoch 12, minibatch 390/390, validation error 3.034856 %
+     epoch 12, minibatch 390/390, test error of best model 3.295272 %
+training @ iter =  4700
+training @ iter =  4800
+training @ iter =  4900
+training @ iter =  5000
+epoch 13, minibatch 390/390, validation error 2.964744 %
+     epoch 13, minibatch 390/390, test error of best model 3.094952 %
+training @ iter =  5100
+training @ iter =  5200
+training @ iter =  5300
+training @ iter =  5400
+epoch 14, minibatch 390/390, validation error 2.814503 %
+     epoch 14, minibatch 390/390, test error of best model 2.954728 %
+training @ iter =  5500
+training @ iter =  5600
+training @ iter =  5700
+training @ iter =  5800
+epoch 15, minibatch 390/390, validation error 2.684295 %
+     epoch 15, minibatch 390/390, test error of best model 2.794471 %
+training @ iter =  5900
+training @ iter =  6000
+training @ iter =  6100
+training @ iter =  6200
+epoch 16, minibatch 390/390, validation error 2.574119 %
+     epoch 16, minibatch 390/390, test error of best model 2.624199 %
+training @ iter =  6300
+training @ iter =  6400
+training @ iter =  6500
+training @ iter =  6600
+epoch 17, minibatch 390/390, validation error 2.433894 %
+     epoch 17, minibatch 390/390, test error of best model 2.443910 %
+training @ iter =  6700
+training @ iter =  6800
+training @ iter =  6900
+training @ iter =  7000
+epoch 18, minibatch 390/390, validation error 2.283654 %
+     epoch 18, minibatch 390/390, test error of best model 2.283654 %
+training @ iter =  7100
+training @ iter =  7200
+training @ iter =  7300
+training @ iter =  7400
+epoch 19, minibatch 390/390, validation error 2.203526 %
+     epoch 19, minibatch 390/390, test error of best model 2.233574 %
+training @ iter =  7500
+training @ iter =  7600
+training @ iter =  7700
+epoch 20, minibatch 390/390, validation error 2.133413 %
+     epoch 20, minibatch 390/390, test error of best model 2.193510 %
+training @ iter =  7800
+training @ iter =  7900
+training @ iter =  8000
+training @ iter =  8100
+epoch 21, minibatch 390/390, validation error 2.103365 %
+     epoch 21, minibatch 390/390, test error of best model 2.093349 %
+training @ iter =  8200
+training @ iter =  8300
+training @ iter =  8400
+training @ iter =  8500
+epoch 22, minibatch 390/390, validation error 2.003205 %
+     epoch 22, minibatch 390/390, test error of best model 2.043269 %
+training @ iter =  8600
+training @ iter =  8700
+training @ iter =  8800
+training @ iter =  8900
+epoch 23, minibatch 390/390, validation error 1.963141 %
+     epoch 23, minibatch 390/390, test error of best model 1.963141 %
+training @ iter =  9000
+training @ iter =  9100
+training @ iter =  9200
+training @ iter =  9300
+epoch 24, minibatch 390/390, validation error 1.943109 %
+     epoch 24, minibatch 390/390, test error of best model 1.923077 %
+training @ iter =  9400
+training @ iter =  9500
+training @ iter =  9600
+training @ iter =  9700
+epoch 25, minibatch 390/390, validation error 1.913061 %
+     epoch 25, minibatch 390/390, test error of best model 1.893029 %
+training @ iter =  9800
+training @ iter =  9900
+training @ iter =  10000
+training @ iter =  10100
+epoch 26, minibatch 390/390, validation error 1.893029 %
+     epoch 26, minibatch 390/390, test error of best model 1.832933 %
+training @ iter =  10200
+training @ iter =  10300
+training @ iter =  10400
+training @ iter =  10500
+epoch 27, minibatch 390/390, validation error 1.832933 %
+     epoch 27, minibatch 390/390, test error of best model 1.792869 %
+training @ iter =  10600
+training @ iter =  10700
+training @ iter =  10800
+training @ iter =  10900
+epoch 28, minibatch 390/390, validation error 1.782853 %
+     epoch 28, minibatch 390/390, test error of best model 1.752804 %
+training @ iter =  11000
+training @ iter =  11100
+training @ iter =  11200
+training @ iter =  11300
+epoch 29, minibatch 390/390, validation error 1.742788 %
+     epoch 29, minibatch 390/390, test error of best model 1.732772 %
+training @ iter =  11400
+training @ iter =  11500
+training @ iter =  11600
+epoch 30, minibatch 390/390, validation error 1.722756 %
+     epoch 30, minibatch 390/390, test error of best model 1.682692 %
+training @ iter =  11700
+training @ iter =  11800
+training @ iter =  11900
+training @ iter =  12000
+epoch 31, minibatch 390/390, validation error 1.692708 %
+     epoch 31, minibatch 390/390, test error of best model 1.622596 %
+training @ iter =  12100
+training @ iter =  12200
+training @ iter =  12300
+training @ iter =  12400
+epoch 32, minibatch 390/390, validation error 1.672676 %
+     epoch 32, minibatch 390/390, test error of best model 1.582532 %
+training @ iter =  12500
+training @ iter =  12600
+training @ iter =  12700
+training @ iter =  12800
+epoch 33, minibatch 390/390, validation error 1.612580 %
+     epoch 33, minibatch 390/390, test error of best model 1.592548 %
+training @ iter =  12900
+training @ iter =  13000
+training @ iter =  13100
+training @ iter =  13200
+epoch 34, minibatch 390/390, validation error 1.612580 %
+training @ iter =  13300
+training @ iter =  13400
+training @ iter =  13500
+training @ iter =  13600
+epoch 35, minibatch 390/390, validation error 1.592548 %
+     epoch 35, minibatch 390/390, test error of best model 1.562500 %
+training @ iter =  13700
+training @ iter =  13800
+training @ iter =  13900
+training @ iter =  14000
+epoch 36, minibatch 390/390, validation error 1.572516 %
+     epoch 36, minibatch 390/390, test error of best model 1.512420 %
+training @ iter =  14100
+training @ iter =  14200
+training @ iter =  14300
+training @ iter =  14400
+epoch 37, minibatch 390/390, validation error 1.562500 %
+     epoch 37, minibatch 390/390, test error of best model 1.492388 %
+training @ iter =  14500
+training @ iter =  14600
+training @ iter =  14700
+training @ iter =  14800
+epoch 38, minibatch 390/390, validation error 1.542468 %
+     epoch 38, minibatch 390/390, test error of best model 1.482372 %
+training @ iter =  14900
+training @ iter =  15000
+training @ iter =  15100
+training @ iter =  15200
+epoch 39, minibatch 390/390, validation error 1.522436 %
+     epoch 39, minibatch 390/390, test error of best model 1.442308 %
+training @ iter =  15300
+training @ iter =  15400
+training @ iter =  15500
+epoch 40, minibatch 390/390, validation error 1.462340 %
+     epoch 40, minibatch 390/390, test error of best model 1.422276 %
+training @ iter =  15600
+training @ iter =  15700
+training @ iter =  15800
+training @ iter =  15900
+epoch 41, minibatch 390/390, validation error 1.462340 %
+training @ iter =  16000
+training @ iter =  16100
+training @ iter =  16200
+training @ iter =  16300
+epoch 42, minibatch 390/390, validation error 1.442308 %
+     epoch 42, minibatch 390/390, test error of best model 1.362179 %
+training @ iter =  16400
+training @ iter =  16500
+training @ iter =  16600
+training @ iter =  16700
+epoch 43, minibatch 390/390, validation error 1.432292 %
+     epoch 43, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  16800
+training @ iter =  16900
+training @ iter =  17000
+training @ iter =  17100
+epoch 44, minibatch 390/390, validation error 1.412260 %
+     epoch 44, minibatch 390/390, test error of best model 1.332131 %
+training @ iter =  17200
+training @ iter =  17300
+training @ iter =  17400
+training @ iter =  17500
+epoch 45, minibatch 390/390, validation error 1.402244 %
+     epoch 45, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  17600
+training @ iter =  17700
+training @ iter =  17800
+training @ iter =  17900
+epoch 46, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18000
+training @ iter =  18100
+training @ iter =  18200
+training @ iter =  18300
+epoch 47, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18400
+training @ iter =  18500
+training @ iter =  18600
+training @ iter =  18700
+epoch 48, minibatch 390/390, validation error 1.392228 %
+     epoch 48, minibatch 390/390, test error of best model 1.322115 %
+training @ iter =  18800
+training @ iter =  18900
+training @ iter =  19000
+training @ iter =  19100
+epoch 49, minibatch 390/390, validation error 1.372196 %
+     epoch 49, minibatch 390/390, test error of best model 1.312099 %
+training @ iter =  19200
+training @ iter =  19300
+training @ iter =  19400
+epoch 50, minibatch 390/390, validation error 1.372196 %
+training @ iter =  19500
+training @ iter =  19600
+training @ iter =  19700
+training @ iter =  19800
+epoch 51, minibatch 390/390, validation error 1.352163 %
+     epoch 51, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  19900
+training @ iter =  20000
+training @ iter =  20100
+training @ iter =  20200
+epoch 52, minibatch 390/390, validation error 1.322115 %
+     epoch 52, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  20300
+training @ iter =  20400
+training @ iter =  20500
+training @ iter =  20600
+epoch 53, minibatch 390/390, validation error 1.322115 %
+training @ iter =  20700
+training @ iter =  20800
+training @ iter =  20900
+training @ iter =  21000
+epoch 54, minibatch 390/390, validation error 1.292067 %
+     epoch 54, minibatch 390/390, test error of best model 1.262019 %
+training @ iter =  21100
+training @ iter =  21200
+training @ iter =  21300
+training @ iter =  21400
+epoch 55, minibatch 390/390, validation error 1.282051 %
+     epoch 55, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21500
+training @ iter =  21600
+training @ iter =  21700
+training @ iter =  21800
+epoch 56, minibatch 390/390, validation error 1.272035 %
+     epoch 56, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21900
+training @ iter =  22000
+training @ iter =  22100
+training @ iter =  22200
+epoch 57, minibatch 390/390, validation error 1.231971 %
+     epoch 57, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  22300
+training @ iter =  22400
+training @ iter =  22500
+training @ iter =  22600
+epoch 58, minibatch 390/390, validation error 1.211939 %
+     epoch 58, minibatch 390/390, test error of best model 1.252003 %
+training @ iter =  22700
+training @ iter =  22800
+training @ iter =  22900
+training @ iter =  23000
+epoch 59, minibatch 390/390, validation error 1.211939 %
+training @ iter =  23100
+training @ iter =  23200
+training @ iter =  23300
+epoch 60, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23400
+training @ iter =  23500
+training @ iter =  23600
+training @ iter =  23700
+epoch 61, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23800
+training @ iter =  23900
+training @ iter =  24000
+training @ iter =  24100
+epoch 62, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24200
+training @ iter =  24300
+training @ iter =  24400
+training @ iter =  24500
+epoch 63, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24600
+training @ iter =  24700
+training @ iter =  24800
+training @ iter =  24900
+epoch 64, minibatch 390/390, validation error 1.201923 %
+     epoch 64, minibatch 390/390, test error of best model 1.161859 %
+training @ iter =  25000
+training @ iter =  25100
+training @ iter =  25200
+training @ iter =  25300
+epoch 65, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25400
+training @ iter =  25500
+training @ iter =  25600
+training @ iter =  25700
+epoch 66, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25800
+training @ iter =  25900
+training @ iter =  26000
+training @ iter =  26100
+epoch 67, minibatch 390/390, validation error 1.191907 %
+     epoch 67, minibatch 390/390, test error of best model 1.131811 %
+training @ iter =  26200
+training @ iter =  26300
+training @ iter =  26400
+training @ iter =  26500
+epoch 68, minibatch 390/390, validation error 1.171875 %
+     epoch 68, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  26600
+training @ iter =  26700
+training @ iter =  26800
+training @ iter =  26900
+epoch 69, minibatch 390/390, validation error 1.171875 %
+training @ iter =  27000
+training @ iter =  27100
+training @ iter =  27200
+epoch 70, minibatch 390/390, validation error 1.161859 %
+     epoch 70, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  27300
+training @ iter =  27400
+training @ iter =  27500
+training @ iter =  27600
+epoch 71, minibatch 390/390, validation error 1.161859 %
+training @ iter =  27700
+training @ iter =  27800
+training @ iter =  27900
+training @ iter =  28000
+epoch 72, minibatch 390/390, validation error 1.171875 %
+training @ iter =  28100
+training @ iter =  28200
+training @ iter =  28300
+training @ iter =  28400
+epoch 73, minibatch 390/390, validation error 1.161859 %
+training @ iter =  28500
+training @ iter =  28600
+training @ iter =  28700
+training @ iter =  28800
+epoch 74, minibatch 390/390, validation error 1.141827 %
+     epoch 74, minibatch 390/390, test error of best model 1.071715 %
+training @ iter =  28900
+training @ iter =  29000
+training @ iter =  29100
+training @ iter =  29200
+epoch 75, minibatch 390/390, validation error 1.141827 %
+training @ iter =  29300
+training @ iter =  29400
+training @ iter =  29500
+training @ iter =  29600
+epoch 76, minibatch 390/390, validation error 1.151843 %
+training @ iter =  29700
+training @ iter =  29800
+training @ iter =  29900
+training @ iter =  30000
+epoch 77, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30100
+training @ iter =  30200
+training @ iter =  30300
+training @ iter =  30400
+epoch 78, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30500
+training @ iter =  30600
+training @ iter =  30700
+training @ iter =  30800
+epoch 79, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30900
+training @ iter =  31000
+training @ iter =  31100
+epoch 80, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31200
+training @ iter =  31300
+training @ iter =  31400
+training @ iter =  31500
+epoch 81, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31600
+training @ iter =  31700
+training @ iter =  31800
+training @ iter =  31900
+epoch 82, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32000
+training @ iter =  32100
+training @ iter =  32200
+training @ iter =  32300
+epoch 83, minibatch 390/390, validation error 1.171875 %
+training @ iter =  32400
+training @ iter =  32500
+training @ iter =  32600
+training @ iter =  32700
+epoch 84, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32800
+training @ iter =  32900
+training @ iter =  33000
+training @ iter =  33100
+epoch 85, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33200
+training @ iter =  33300
+training @ iter =  33400
+training @ iter =  33500
+epoch 86, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33600
+training @ iter =  33700
+training @ iter =  33800
+training @ iter =  33900
+epoch 87, minibatch 390/390, validation error 1.121795 %
+     epoch 87, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34000
+training @ iter =  34100
+training @ iter =  34200
+training @ iter =  34300
+epoch 88, minibatch 390/390, validation error 1.111779 %
+     epoch 88, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34400
+training @ iter =  34500
+training @ iter =  34600
+training @ iter =  34700
+epoch 89, minibatch 390/390, validation error 1.101763 %
+     epoch 89, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34800
+training @ iter =  34900
+training @ iter =  35000
+epoch 90, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35100
+training @ iter =  35200
+training @ iter =  35300
+training @ iter =  35400
+epoch 91, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35500
+training @ iter =  35600
+training @ iter =  35700
+training @ iter =  35800
+epoch 92, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35900
+training @ iter =  36000
+training @ iter =  36100
+training @ iter =  36200
+epoch 93, minibatch 390/390, validation error 1.091747 %
+     epoch 93, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  36300
+training @ iter =  36400
+training @ iter =  36500
+training @ iter =  36600
+epoch 94, minibatch 390/390, validation error 1.091747 %
+training @ iter =  36700
+training @ iter =  36800
+training @ iter =  36900
+training @ iter =  37000
+epoch 95, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37100
+training @ iter =  37200
+training @ iter =  37300
+training @ iter =  37400
+epoch 96, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37500
+training @ iter =  37600
+training @ iter =  37700
+training @ iter =  37800
+epoch 97, minibatch 390/390, validation error 1.091747 %
+training @ iter =  37900
+training @ iter =  38000
+training @ iter =  38100
+training @ iter =  38200
+epoch 98, minibatch 390/390, validation error 1.101763 %
+training @ iter =  38300
+training @ iter =  38400
+training @ iter =  38500
+training @ iter =  38600
+epoch 99, minibatch 390/390, validation error 1.091747 %
+training @ iter =  38700
+training @ iter =  38800
+training @ iter =  38900
+epoch 100, minibatch 390/390, validation error 1.091747 %
+training @ iter =  39000
+training @ iter =  39100
+training @ iter =  39200
+training @ iter =  39300
+epoch 101, minibatch 390/390, validation error 1.081731 %
+     epoch 101, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  39400
+training @ iter =  39500
+training @ iter =  39600
+training @ iter =  39700
+epoch 102, minibatch 390/390, validation error 1.081731 %
+training @ iter =  39800
+training @ iter =  39900
+training @ iter =  40000
+training @ iter =  40100
+epoch 103, minibatch 390/390, validation error 1.061699 %
+     epoch 103, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  40200
+training @ iter =  40300
+training @ iter =  40400
+training @ iter =  40500
+epoch 104, minibatch 390/390, validation error 1.071715 %
+training @ iter =  40600
+training @ iter =  40700
+training @ iter =  40800
+training @ iter =  40900
+epoch 105, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41000
+training @ iter =  41100
+training @ iter =  41200
+training @ iter =  41300
+epoch 106, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41400
+training @ iter =  41500
+training @ iter =  41600
+training @ iter =  41700
+epoch 107, minibatch 390/390, validation error 1.081731 %
+training @ iter =  41800
+training @ iter =  41900
+training @ iter =  42000
+training @ iter =  42100
+epoch 108, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42200
+training @ iter =  42300
+training @ iter =  42400
+training @ iter =  42500
+epoch 109, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42600
+training @ iter =  42700
+training @ iter =  42800
+epoch 110, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42900
+training @ iter =  43000
+training @ iter =  43100
+training @ iter =  43200
+epoch 111, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43300
+training @ iter =  43400
+training @ iter =  43500
+training @ iter =  43600
+epoch 112, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43700
+training @ iter =  43800
+training @ iter =  43900
+training @ iter =  44000
+epoch 113, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44100
+training @ iter =  44200
+training @ iter =  44300
+training @ iter =  44400
+epoch 114, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44500
+training @ iter =  44600
+training @ iter =  44700
+training @ iter =  44800
+epoch 115, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44900
+training @ iter =  45000
+training @ iter =  45100
+training @ iter =  45200
+epoch 116, minibatch 390/390, validation error 1.091747 %
+training @ iter =  45300
+training @ iter =  45400
+training @ iter =  45500
+training @ iter =  45600
+epoch 117, minibatch 390/390, validation error 1.101763 %
+training @ iter =  45700
+training @ iter =  45800
+training @ iter =  45900
+training @ iter =  46000
+epoch 118, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46100
+training @ iter =  46200
+training @ iter =  46300
+training @ iter =  46400
+epoch 119, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46500
+training @ iter =  46600
+training @ iter =  46700
+epoch 120, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46800
+training @ iter =  46900
+training @ iter =  47000
+training @ iter =  47100
+epoch 121, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47200
+training @ iter =  47300
+training @ iter =  47400
+training @ iter =  47500
+epoch 122, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47600
+training @ iter =  47700
+training @ iter =  47800
+training @ iter =  47900
+epoch 123, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48000
+training @ iter =  48100
+training @ iter =  48200
+training @ iter =  48300
+epoch 124, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48400
+training @ iter =  48500
+training @ iter =  48600
+training @ iter =  48700
+epoch 125, minibatch 390/390, validation error 1.091747 %
+training @ iter =  48800
+training @ iter =  48900
+training @ iter =  49000
+training @ iter =  49100
+epoch 126, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49200
+training @ iter =  49300
+training @ iter =  49400
+training @ iter =  49500
+epoch 127, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49600
+training @ iter =  49700
+training @ iter =  49800
+training @ iter =  49900
+epoch 128, minibatch 390/390, validation error 1.091747 %
+training @ iter =  50000
+training @ iter =  50100
+training @ iter =  50200
+training @ iter =  50300
+epoch 129, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50400
+training @ iter =  50500
+training @ iter =  50600
+epoch 130, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50700
+training @ iter =  50800
+training @ iter =  50900
+training @ iter =  51000
+epoch 131, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51100
+training @ iter =  51200
+training @ iter =  51300
+training @ iter =  51400
+epoch 132, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51500
+training @ iter =  51600
+training @ iter =  51700
+training @ iter =  51800
+epoch 133, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51900
+training @ iter =  52000
+training @ iter =  52100
+training @ iter =  52200
+epoch 134, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52300
+training @ iter =  52400
+training @ iter =  52500
+training @ iter =  52600
+epoch 135, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52700
+training @ iter =  52800
+training @ iter =  52900
+training @ iter =  53000
+epoch 136, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53100
+training @ iter =  53200
+training @ iter =  53300
+training @ iter =  53400
+epoch 137, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53500
+training @ iter =  53600
+training @ iter =  53700
+training @ iter =  53800
+epoch 138, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53900
+training @ iter =  54000
+training @ iter =  54100
+training @ iter =  54200
+epoch 139, minibatch 390/390, validation error 1.111779 %
+training @ iter =  54300
+training @ iter =  54400
+training @ iter =  54500
+epoch 140, minibatch 390/390, validation error 1.101763 %
+training @ iter =  54600
+training @ iter =  54700
+training @ iter =  54800
+training @ iter =  54900
+epoch 141, minibatch 390/390, validation error 1.101763 %
+training @ iter =  55000
+training @ iter =  55100
+training @ iter =  55200
+training @ iter =  55300
+epoch 142, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55400
+training @ iter =  55500
+training @ iter =  55600
+training @ iter =  55700
+epoch 143, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55800
+training @ iter =  55900
+training @ iter =  56000
+training @ iter =  56100
+epoch 144, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56200
+training @ iter =  56300
+training @ iter =  56400
+training @ iter =  56500
+epoch 145, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56600
+training @ iter =  56700
+training @ iter =  56800
+training @ iter =  56900
+epoch 146, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57000
+training @ iter =  57100
+training @ iter =  57200
+training @ iter =  57300
+epoch 147, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57400
+training @ iter =  57500
+training @ iter =  57600
+training @ iter =  57700
+epoch 148, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57800
+training @ iter =  57900
+training @ iter =  58000
+training @ iter =  58100
+epoch 149, minibatch 390/390, validation error 1.071715 %
+training @ iter =  58200
+training @ iter =  58300
+training @ iter =  58400
+epoch 150, minibatch 390/390, validation error 1.071715 %
+Optimization complete.
+Best validation score of 1.061699 % obtained at iteration 40170, with test performance 0.961538 %
+... loading data
+... building the model
+... training
+epoch 149, minibatch 390/390, validation error 2.634215 %
+     epoch 149, minibatch 390/390, test error of best model 2.584135 %
+Save model to results/mlp
+Optimization complete. Best validation score of 2.634215 % obtained at iteration 58110, with test performance 2.584135 %
+... loading data
+... building the model
+... training
+training @ iter =  0
+training @ iter =  100
+training @ iter =  200
+training @ iter =  300
+epoch 1, minibatch 390/390, validation error 25.520833 %
+     epoch 1, minibatch 390/390, test error of best model 25.781250 %
+training @ iter =  400
+training @ iter =  500
+training @ iter =  600
+training @ iter =  700
+epoch 2, minibatch 390/390, validation error 13.281250 %
+     epoch 2, minibatch 390/390, test error of best model 13.651843 %
+training @ iter =  800
+training @ iter =  900
+training @ iter =  1000
+training @ iter =  1100
+epoch 3, minibatch 390/390, validation error 9.204728 %
+     epoch 3, minibatch 390/390, test error of best model 9.725561 %
+training @ iter =  1200
+training @ iter =  1300
+training @ iter =  1400
+training @ iter =  1500
+epoch 4, minibatch 390/390, validation error 7.361779 %
+     epoch 4, minibatch 390/390, test error of best model 7.762420 %
+training @ iter =  1600
+training @ iter =  1700
+training @ iter =  1800
+training @ iter =  1900
+epoch 5, minibatch 390/390, validation error 6.149840 %
+     epoch 5, minibatch 390/390, test error of best model 6.280048 %
+training @ iter =  2000
+training @ iter =  2100
+training @ iter =  2200
+training @ iter =  2300
+epoch 6, minibatch 390/390, validation error 5.468750 %
+     epoch 6, minibatch 390/390, test error of best model 5.588942 %
+training @ iter =  2400
+training @ iter =  2500
+training @ iter =  2600
+training @ iter =  2700
+epoch 7, minibatch 390/390, validation error 4.827724 %
+     epoch 7, minibatch 390/390, test error of best model 4.997997 %
+training @ iter =  2800
+training @ iter =  2900
+training @ iter =  3000
+training @ iter =  3100
+epoch 8, minibatch 390/390, validation error 4.346955 %
+     epoch 8, minibatch 390/390, test error of best model 4.557292 %
+training @ iter =  3200
+training @ iter =  3300
+training @ iter =  3400
+training @ iter =  3500
+epoch 9, minibatch 390/390, validation error 4.046474 %
+     epoch 9, minibatch 390/390, test error of best model 4.146635 %
+training @ iter =  3600
+training @ iter =  3700
+training @ iter =  3800
+epoch 10, minibatch 390/390, validation error 3.625801 %
+     epoch 10, minibatch 390/390, test error of best model 3.826122 %
+training @ iter =  3900
+training @ iter =  4000
+training @ iter =  4100
+training @ iter =  4200
+epoch 11, minibatch 390/390, validation error 3.315304 %
+     epoch 11, minibatch 390/390, test error of best model 3.545673 %
+training @ iter =  4300
+training @ iter =  4400
+training @ iter =  4500
+training @ iter =  4600
+epoch 12, minibatch 390/390, validation error 3.034856 %
+     epoch 12, minibatch 390/390, test error of best model 3.295272 %
+training @ iter =  4700
+training @ iter =  4800
+training @ iter =  4900
+training @ iter =  5000
+epoch 13, minibatch 390/390, validation error 2.964744 %
+     epoch 13, minibatch 390/390, test error of best model 3.094952 %
+training @ iter =  5100
+training @ iter =  5200
+training @ iter =  5300
+training @ iter =  5400
+epoch 14, minibatch 390/390, validation error 2.814503 %
+     epoch 14, minibatch 390/390, test error of best model 2.954728 %
+training @ iter =  5500
+training @ iter =  5600
+training @ iter =  5700
+training @ iter =  5800
+epoch 15, minibatch 390/390, validation error 2.684295 %
+     epoch 15, minibatch 390/390, test error of best model 2.794471 %
+training @ iter =  5900
+training @ iter =  6000
+training @ iter =  6100
+training @ iter =  6200
+epoch 16, minibatch 390/390, validation error 2.574119 %
+     epoch 16, minibatch 390/390, test error of best model 2.624199 %
+training @ iter =  6300
+training @ iter =  6400
+training @ iter =  6500
+training @ iter =  6600
+epoch 17, minibatch 390/390, validation error 2.433894 %
+     epoch 17, minibatch 390/390, test error of best model 2.443910 %
+training @ iter =  6700
+training @ iter =  6800
+training @ iter =  6900
+training @ iter =  7000
+epoch 18, minibatch 390/390, validation error 2.283654 %
+     epoch 18, minibatch 390/390, test error of best model 2.283654 %
+training @ iter =  7100
+training @ iter =  7200
+training @ iter =  7300
+training @ iter =  7400
+epoch 19, minibatch 390/390, validation error 2.203526 %
+     epoch 19, minibatch 390/390, test error of best model 2.233574 %
+training @ iter =  7500
+training @ iter =  7600
+training @ iter =  7700
+epoch 20, minibatch 390/390, validation error 2.133413 %
+     epoch 20, minibatch 390/390, test error of best model 2.193510 %
+training @ iter =  7800
+training @ iter =  7900
+training @ iter =  8000
+training @ iter =  8100
+epoch 21, minibatch 390/390, validation error 2.103365 %
+     epoch 21, minibatch 390/390, test error of best model 2.093349 %
+training @ iter =  8200
+training @ iter =  8300
+training @ iter =  8400
+training @ iter =  8500
+epoch 22, minibatch 390/390, validation error 2.003205 %
+     epoch 22, minibatch 390/390, test error of best model 2.043269 %
+training @ iter =  8600
+training @ iter =  8700
+training @ iter =  8800
+training @ iter =  8900
+epoch 23, minibatch 390/390, validation error 1.963141 %
+     epoch 23, minibatch 390/390, test error of best model 1.963141 %
+training @ iter =  9000
+training @ iter =  9100
+training @ iter =  9200
+training @ iter =  9300
+epoch 24, minibatch 390/390, validation error 1.943109 %
+     epoch 24, minibatch 390/390, test error of best model 1.923077 %
+training @ iter =  9400
+training @ iter =  9500
+training @ iter =  9600
+training @ iter =  9700
+epoch 25, minibatch 390/390, validation error 1.913061 %
+     epoch 25, minibatch 390/390, test error of best model 1.893029 %
+training @ iter =  9800
+training @ iter =  9900
+training @ iter =  10000
+training @ iter =  10100
+epoch 26, minibatch 390/390, validation error 1.893029 %
+     epoch 26, minibatch 390/390, test error of best model 1.832933 %
+training @ iter =  10200
+training @ iter =  10300
+training @ iter =  10400
+training @ iter =  10500
+epoch 27, minibatch 390/390, validation error 1.832933 %
+     epoch 27, minibatch 390/390, test error of best model 1.792869 %
+training @ iter =  10600
+training @ iter =  10700
+training @ iter =  10800
+training @ iter =  10900
+epoch 28, minibatch 390/390, validation error 1.782853 %
+     epoch 28, minibatch 390/390, test error of best model 1.752804 %
+training @ iter =  11000
+training @ iter =  11100
+training @ iter =  11200
+training @ iter =  11300
+epoch 29, minibatch 390/390, validation error 1.742788 %
+     epoch 29, minibatch 390/390, test error of best model 1.732772 %
+training @ iter =  11400
+training @ iter =  11500
+training @ iter =  11600
+epoch 30, minibatch 390/390, validation error 1.722756 %
+     epoch 30, minibatch 390/390, test error of best model 1.682692 %
+training @ iter =  11700
+training @ iter =  11800
+training @ iter =  11900
+training @ iter =  12000
+epoch 31, minibatch 390/390, validation error 1.692708 %
+     epoch 31, minibatch 390/390, test error of best model 1.622596 %
+training @ iter =  12100
+training @ iter =  12200
+training @ iter =  12300
+training @ iter =  12400
+epoch 32, minibatch 390/390, validation error 1.672676 %
+     epoch 32, minibatch 390/390, test error of best model 1.582532 %
+training @ iter =  12500
+training @ iter =  12600
+training @ iter =  12700
+training @ iter =  12800
+epoch 33, minibatch 390/390, validation error 1.612580 %
+     epoch 33, minibatch 390/390, test error of best model 1.592548 %
+training @ iter =  12900
+training @ iter =  13000
+training @ iter =  13100
+training @ iter =  13200
+epoch 34, minibatch 390/390, validation error 1.612580 %
+training @ iter =  13300
+training @ iter =  13400
+training @ iter =  13500
+training @ iter =  13600
+epoch 35, minibatch 390/390, validation error 1.592548 %
+     epoch 35, minibatch 390/390, test error of best model 1.562500 %
+training @ iter =  13700
+training @ iter =  13800
+training @ iter =  13900
+training @ iter =  14000
+epoch 36, minibatch 390/390, validation error 1.572516 %
+     epoch 36, minibatch 390/390, test error of best model 1.512420 %
+training @ iter =  14100
+training @ iter =  14200
+training @ iter =  14300
+training @ iter =  14400
+epoch 37, minibatch 390/390, validation error 1.562500 %
+     epoch 37, minibatch 390/390, test error of best model 1.492388 %
+training @ iter =  14500
+training @ iter =  14600
+training @ iter =  14700
+training @ iter =  14800
+epoch 38, minibatch 390/390, validation error 1.542468 %
+     epoch 38, minibatch 390/390, test error of best model 1.482372 %
+training @ iter =  14900
+training @ iter =  15000
+training @ iter =  15100
+training @ iter =  15200
+epoch 39, minibatch 390/390, validation error 1.522436 %
+     epoch 39, minibatch 390/390, test error of best model 1.442308 %
+training @ iter =  15300
+training @ iter =  15400
+training @ iter =  15500
+epoch 40, minibatch 390/390, validation error 1.462340 %
+     epoch 40, minibatch 390/390, test error of best model 1.422276 %
+training @ iter =  15600
+training @ iter =  15700
+training @ iter =  15800
+training @ iter =  15900
+epoch 41, minibatch 390/390, validation error 1.462340 %
+training @ iter =  16000
+training @ iter =  16100
+training @ iter =  16200
+training @ iter =  16300
+epoch 42, minibatch 390/390, validation error 1.442308 %
+     epoch 42, minibatch 390/390, test error of best model 1.362179 %
+training @ iter =  16400
+training @ iter =  16500
+training @ iter =  16600
+training @ iter =  16700
+epoch 43, minibatch 390/390, validation error 1.432292 %
+     epoch 43, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  16800
+training @ iter =  16900
+training @ iter =  17000
+training @ iter =  17100
+epoch 44, minibatch 390/390, validation error 1.412260 %
+     epoch 44, minibatch 390/390, test error of best model 1.332131 %
+training @ iter =  17200
+training @ iter =  17300
+training @ iter =  17400
+training @ iter =  17500
+epoch 45, minibatch 390/390, validation error 1.402244 %
+     epoch 45, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  17600
+training @ iter =  17700
+training @ iter =  17800
+training @ iter =  17900
+epoch 46, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18000
+training @ iter =  18100
+training @ iter =  18200
+training @ iter =  18300
+epoch 47, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18400
+training @ iter =  18500
+training @ iter =  18600
+training @ iter =  18700
+epoch 48, minibatch 390/390, validation error 1.392228 %
+     epoch 48, minibatch 390/390, test error of best model 1.322115 %
+training @ iter =  18800
+training @ iter =  18900
+training @ iter =  19000
+training @ iter =  19100
+epoch 49, minibatch 390/390, validation error 1.372196 %
+     epoch 49, minibatch 390/390, test error of best model 1.312099 %
+training @ iter =  19200
+training @ iter =  19300
+training @ iter =  19400
+epoch 50, minibatch 390/390, validation error 1.372196 %
+training @ iter =  19500
+training @ iter =  19600
+training @ iter =  19700
+training @ iter =  19800
+epoch 51, minibatch 390/390, validation error 1.352163 %
+     epoch 51, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  19900
+training @ iter =  20000
+training @ iter =  20100
+training @ iter =  20200
+epoch 52, minibatch 390/390, validation error 1.322115 %
+     epoch 52, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  20300
+training @ iter =  20400
+training @ iter =  20500
+training @ iter =  20600
+epoch 53, minibatch 390/390, validation error 1.322115 %
+training @ iter =  20700
+training @ iter =  20800
+training @ iter =  20900
+training @ iter =  21000
+epoch 54, minibatch 390/390, validation error 1.292067 %
+     epoch 54, minibatch 390/390, test error of best model 1.262019 %
+training @ iter =  21100
+training @ iter =  21200
+training @ iter =  21300
+training @ iter =  21400
+epoch 55, minibatch 390/390, validation error 1.282051 %
+     epoch 55, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21500
+training @ iter =  21600
+training @ iter =  21700
+training @ iter =  21800
+epoch 56, minibatch 390/390, validation error 1.272035 %
+     epoch 56, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21900
+training @ iter =  22000
+training @ iter =  22100
+training @ iter =  22200
+epoch 57, minibatch 390/390, validation error 1.231971 %
+     epoch 57, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  22300
+training @ iter =  22400
+training @ iter =  22500
+training @ iter =  22600
+epoch 58, minibatch 390/390, validation error 1.211939 %
+     epoch 58, minibatch 390/390, test error of best model 1.252003 %
+training @ iter =  22700
+training @ iter =  22800
+training @ iter =  22900
+training @ iter =  23000
+epoch 59, minibatch 390/390, validation error 1.211939 %
+training @ iter =  23100
+training @ iter =  23200
+training @ iter =  23300
+epoch 60, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23400
+training @ iter =  23500
+training @ iter =  23600
+training @ iter =  23700
+epoch 61, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23800
+training @ iter =  23900
+training @ iter =  24000
+training @ iter =  24100
+epoch 62, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24200
+training @ iter =  24300
+training @ iter =  24400
+training @ iter =  24500
+epoch 63, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24600
+training @ iter =  24700
+training @ iter =  24800
+training @ iter =  24900
+epoch 64, minibatch 390/390, validation error 1.201923 %
+     epoch 64, minibatch 390/390, test error of best model 1.161859 %
+training @ iter =  25000
+training @ iter =  25100
+training @ iter =  25200
+training @ iter =  25300
+epoch 65, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25400
+training @ iter =  25500
+training @ iter =  25600
+training @ iter =  25700
+epoch 66, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25800
+training @ iter =  25900
+training @ iter =  26000
+training @ iter =  26100
+epoch 67, minibatch 390/390, validation error 1.191907 %
+     epoch 67, minibatch 390/390, test error of best model 1.131811 %
+training @ iter =  26200
+training @ iter =  26300
+training @ iter =  26400
+training @ iter =  26500
+epoch 68, minibatch 390/390, validation error 1.171875 %
+     epoch 68, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  26600
+training @ iter =  26700
+training @ iter =  26800
+training @ iter =  26900
+epoch 69, minibatch 390/390, validation error 1.171875 %
+training @ iter =  27000
+training @ iter =  27100
+training @ iter =  27200
+epoch 70, minibatch 390/390, validation error 1.161859 %
+     epoch 70, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  27300
+training @ iter =  27400
+training @ iter =  27500
+training @ iter =  27600
+epoch 71, minibatch 390/390, validation error 1.161859 %
+training @ iter =  27700
+training @ iter =  27800
+training @ iter =  27900
+training @ iter =  28000
+epoch 72, minibatch 390/390, validation error 1.171875 %
+training @ iter =  28100
+training @ iter =  28200
+training @ iter =  28300
+training @ iter =  28400
+epoch 73, minibatch 390/390, validation error 1.161859 %
+training @ iter =  28500
+training @ iter =  28600
+training @ iter =  28700
+training @ iter =  28800
+epoch 74, minibatch 390/390, validation error 1.141827 %
+     epoch 74, minibatch 390/390, test error of best model 1.071715 %
+training @ iter =  28900
+training @ iter =  29000
+training @ iter =  29100
+training @ iter =  29200
+epoch 75, minibatch 390/390, validation error 1.141827 %
+training @ iter =  29300
+training @ iter =  29400
+training @ iter =  29500
+training @ iter =  29600
+epoch 76, minibatch 390/390, validation error 1.151843 %
+training @ iter =  29700
+training @ iter =  29800
+training @ iter =  29900
+training @ iter =  30000
+epoch 77, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30100
+training @ iter =  30200
+training @ iter =  30300
+training @ iter =  30400
+epoch 78, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30500
+training @ iter =  30600
+training @ iter =  30700
+training @ iter =  30800
+epoch 79, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30900
+training @ iter =  31000
+training @ iter =  31100
+epoch 80, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31200
+training @ iter =  31300
+training @ iter =  31400
+training @ iter =  31500
+epoch 81, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31600
+training @ iter =  31700
+training @ iter =  31800
+training @ iter =  31900
+epoch 82, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32000
+training @ iter =  32100
+training @ iter =  32200
+training @ iter =  32300
+epoch 83, minibatch 390/390, validation error 1.171875 %
+training @ iter =  32400
+training @ iter =  32500
+training @ iter =  32600
+training @ iter =  32700
+epoch 84, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32800
+training @ iter =  32900
+training @ iter =  33000
+training @ iter =  33100
+epoch 85, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33200
+training @ iter =  33300
+training @ iter =  33400
+training @ iter =  33500
+epoch 86, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33600
+training @ iter =  33700
+training @ iter =  33800
+training @ iter =  33900
+epoch 87, minibatch 390/390, validation error 1.121795 %
+     epoch 87, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34000
+training @ iter =  34100
+training @ iter =  34200
+training @ iter =  34300
+epoch 88, minibatch 390/390, validation error 1.111779 %
+     epoch 88, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34400
+training @ iter =  34500
+training @ iter =  34600
+training @ iter =  34700
+epoch 89, minibatch 390/390, validation error 1.101763 %
+     epoch 89, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34800
+training @ iter =  34900
+training @ iter =  35000
+epoch 90, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35100
+training @ iter =  35200
+training @ iter =  35300
+training @ iter =  35400
+epoch 91, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35500
+training @ iter =  35600
+training @ iter =  35700
+training @ iter =  35800
+epoch 92, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35900
+training @ iter =  36000
+training @ iter =  36100
+training @ iter =  36200
+epoch 93, minibatch 390/390, validation error 1.091747 %
+     epoch 93, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  36300
+training @ iter =  36400
+training @ iter =  36500
+training @ iter =  36600
+epoch 94, minibatch 390/390, validation error 1.091747 %
+training @ iter =  36700
+training @ iter =  36800
+training @ iter =  36900
+training @ iter =  37000
+epoch 95, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37100
+training @ iter =  37200
+training @ iter =  37300
+training @ iter =  37400
+epoch 96, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37500
+training @ iter =  37600
+... loading data
+... building the model
+... training
+epoch 149, minibatch 390/390, validation error 2.634215 %
+     epoch 149, minibatch 390/390, test error of best model 2.584135 %
+Save model to results/mlp
+Optimization complete. Best validation score of 2.634215 % obtained at iteration 58110, with test performance 2.584135 %
+... loading data
+... building the model
+... training
+training @ iter =  0
+training @ iter =  100
+training @ iter =  200
+training @ iter =  300
+epoch 1, minibatch 390/390, validation error 25.520833 %
+     epoch 1, minibatch 390/390, test error of best model 25.781250 %
+training @ iter =  400
+training @ iter =  500
+training @ iter =  600
+training @ iter =  700
+epoch 2, minibatch 390/390, validation error 13.281250 %
+     epoch 2, minibatch 390/390, test error of best model 13.651843 %
+training @ iter =  800
+training @ iter =  900
+training @ iter =  1000
+training @ iter =  1100
+epoch 3, minibatch 390/390, validation error 9.204728 %
+     epoch 3, minibatch 390/390, test error of best model 9.725561 %
+training @ iter =  1200
+training @ iter =  1300
+training @ iter =  1400
+training @ iter =  1500
+epoch 4, minibatch 390/390, validation error 7.361779 %
+     epoch 4, minibatch 390/390, test error of best model 7.762420 %
+training @ iter =  1600
+training @ iter =  1700
+training @ iter =  1800
+training @ iter =  1900
+epoch 5, minibatch 390/390, validation error 6.149840 %
+     epoch 5, minibatch 390/390, test error of best model 6.280048 %
+training @ iter =  2000
+training @ iter =  2100
+training @ iter =  2200
+training @ iter =  2300
+epoch 6, minibatch 390/390, validation error 5.468750 %
+     epoch 6, minibatch 390/390, test error of best model 5.588942 %
+training @ iter =  2400
+training @ iter =  2500
+training @ iter =  2600
+training @ iter =  2700
+epoch 7, minibatch 390/390, validation error 4.827724 %
+     epoch 7, minibatch 390/390, test error of best model 4.997997 %
+training @ iter =  2800
+training @ iter =  2900
+training @ iter =  3000
+training @ iter =  3100
+epoch 8, minibatch 390/390, validation error 4.346955 %
+     epoch 8, minibatch 390/390, test error of best model 4.557292 %
+training @ iter =  3200
+training @ iter =  3300
+training @ iter =  3400
+training @ iter =  3500
+epoch 9, minibatch 390/390, validation error 4.046474 %
+     epoch 9, minibatch 390/390, test error of best model 4.146635 %
+training @ iter =  3600
+training @ iter =  3700
+training @ iter =  3800
+epoch 10, minibatch 390/390, validation error 3.625801 %
+     epoch 10, minibatch 390/390, test error of best model 3.826122 %
+training @ iter =  3900
+training @ iter =  4000
+training @ iter =  4100
+training @ iter =  4200
+epoch 11, minibatch 390/390, validation error 3.315304 %
+     epoch 11, minibatch 390/390, test error of best model 3.545673 %
+training @ iter =  4300
+training @ iter =  4400
+training @ iter =  4500
+training @ iter =  4600
+epoch 12, minibatch 390/390, validation error 3.034856 %
+     epoch 12, minibatch 390/390, test error of best model 3.295272 %
+training @ iter =  4700
+training @ iter =  4800
+training @ iter =  4900
+training @ iter =  5000
+epoch 13, minibatch 390/390, validation error 2.964744 %
+     epoch 13, minibatch 390/390, test error of best model 3.094952 %
+training @ iter =  5100
+training @ iter =  5200
+training @ iter =  5300
+training @ iter =  5400
+epoch 14, minibatch 390/390, validation error 2.814503 %
+     epoch 14, minibatch 390/390, test error of best model 2.954728 %
+training @ iter =  5500
+training @ iter =  5600
+training @ iter =  5700
+training @ iter =  5800
+epoch 15, minibatch 390/390, validation error 2.684295 %
+     epoch 15, minibatch 390/390, test error of best model 2.794471 %
+training @ iter =  5900
+training @ iter =  6000
+training @ iter =  6100
+training @ iter =  6200
+epoch 16, minibatch 390/390, validation error 2.574119 %
+     epoch 16, minibatch 390/390, test error of best model 2.624199 %
+training @ iter =  6300
+training @ iter =  6400
+training @ iter =  6500
+training @ iter =  6600
+epoch 17, minibatch 390/390, validation error 2.433894 %
+     epoch 17, minibatch 390/390, test error of best model 2.443910 %
+training @ iter =  6700
+training @ iter =  6800
+training @ iter =  6900
+training @ iter =  7000
+epoch 18, minibatch 390/390, validation error 2.283654 %
+     epoch 18, minibatch 390/390, test error of best model 2.283654 %
+training @ iter =  7100
+training @ iter =  7200
+training @ iter =  7300
+training @ iter =  7400
+epoch 19, minibatch 390/390, validation error 2.203526 %
+     epoch 19, minibatch 390/390, test error of best model 2.233574 %
+training @ iter =  7500
+training @ iter =  7600
+training @ iter =  7700
+epoch 20, minibatch 390/390, validation error 2.133413 %
+     epoch 20, minibatch 390/390, test error of best model 2.193510 %
+training @ iter =  7800
+training @ iter =  7900
+training @ iter =  8000
+training @ iter =  8100
+epoch 21, minibatch 390/390, validation error 2.103365 %
+     epoch 21, minibatch 390/390, test error of best model 2.093349 %
+training @ iter =  8200
+training @ iter =  8300
+training @ iter =  8400
+training @ iter =  8500
+epoch 22, minibatch 390/390, validation error 2.003205 %
+     epoch 22, minibatch 390/390, test error of best model 2.043269 %
+training @ iter =  8600
+training @ iter =  8700
+training @ iter =  8800
+training @ iter =  8900
+epoch 23, minibatch 390/390, validation error 1.963141 %
+     epoch 23, minibatch 390/390, test error of best model 1.963141 %
+training @ iter =  9000
+training @ iter =  9100
+training @ iter =  9200
+training @ iter =  9300
+epoch 24, minibatch 390/390, validation error 1.943109 %
+     epoch 24, minibatch 390/390, test error of best model 1.923077 %
+training @ iter =  9400
+training @ iter =  9500
+training @ iter =  9600
+training @ iter =  9700
+epoch 25, minibatch 390/390, validation error 1.913061 %
+     epoch 25, minibatch 390/390, test error of best model 1.893029 %
+training @ iter =  9800
+training @ iter =  9900
+training @ iter =  10000
+training @ iter =  10100
+epoch 26, minibatch 390/390, validation error 1.893029 %
+     epoch 26, minibatch 390/390, test error of best model 1.832933 %
+training @ iter =  10200
+training @ iter =  10300
+training @ iter =  10400
+training @ iter =  10500
+epoch 27, minibatch 390/390, validation error 1.832933 %
+     epoch 27, minibatch 390/390, test error of best model 1.792869 %
+training @ iter =  10600
+training @ iter =  10700
+training @ iter =  10800
+training @ iter =  10900
+epoch 28, minibatch 390/390, validation error 1.782853 %
+     epoch 28, minibatch 390/390, test error of best model 1.752804 %
+training @ iter =  11000
+training @ iter =  11100
+training @ iter =  11200
+training @ iter =  11300
+epoch 29, minibatch 390/390, validation error 1.742788 %
+     epoch 29, minibatch 390/390, test error of best model 1.732772 %
+training @ iter =  11400
+training @ iter =  11500
+training @ iter =  11600
+epoch 30, minibatch 390/390, validation error 1.722756 %
+     epoch 30, minibatch 390/390, test error of best model 1.682692 %
+training @ iter =  11700
+training @ iter =  11800
+training @ iter =  11900
+training @ iter =  12000
+epoch 31, minibatch 390/390, validation error 1.692708 %
+     epoch 31, minibatch 390/390, test error of best model 1.622596 %
+training @ iter =  12100
+training @ iter =  12200
+training @ iter =  12300
+training @ iter =  12400
+epoch 32, minibatch 390/390, validation error 1.672676 %
+     epoch 32, minibatch 390/390, test error of best model 1.582532 %
+training @ iter =  12500
+training @ iter =  12600
+training @ iter =  12700
+training @ iter =  12800
+epoch 33, minibatch 390/390, validation error 1.612580 %
+     epoch 33, minibatch 390/390, test error of best model 1.592548 %
+training @ iter =  12900
+training @ iter =  13000
+training @ iter =  13100
+training @ iter =  13200
+epoch 34, minibatch 390/390, validation error 1.612580 %
+training @ iter =  13300
+training @ iter =  13400
+training @ iter =  13500
+training @ iter =  13600
+epoch 35, minibatch 390/390, validation error 1.592548 %
+     epoch 35, minibatch 390/390, test error of best model 1.562500 %
+training @ iter =  13700
+training @ iter =  13800
+training @ iter =  13900
+training @ iter =  14000
+epoch 36, minibatch 390/390, validation error 1.572516 %
+     epoch 36, minibatch 390/390, test error of best model 1.512420 %
+training @ iter =  14100
+training @ iter =  14200
+training @ iter =  14300
+training @ iter =  14400
+epoch 37, minibatch 390/390, validation error 1.562500 %
+     epoch 37, minibatch 390/390, test error of best model 1.492388 %
+training @ iter =  14500
+training @ iter =  14600
+training @ iter =  14700
+training @ iter =  14800
+epoch 38, minibatch 390/390, validation error 1.542468 %
+     epoch 38, minibatch 390/390, test error of best model 1.482372 %
+training @ iter =  14900
+training @ iter =  15000
+training @ iter =  15100
+training @ iter =  15200
+epoch 39, minibatch 390/390, validation error 1.522436 %
+     epoch 39, minibatch 390/390, test error of best model 1.442308 %
+training @ iter =  15300
+training @ iter =  15400
+training @ iter =  15500
+epoch 40, minibatch 390/390, validation error 1.462340 %
+     epoch 40, minibatch 390/390, test error of best model 1.422276 %
+training @ iter =  15600
+training @ iter =  15700
+training @ iter =  15800
+training @ iter =  15900
+epoch 41, minibatch 390/390, validation error 1.462340 %
+training @ iter =  16000
+training @ iter =  16100
+training @ iter =  16200
+training @ iter =  16300
+epoch 42, minibatch 390/390, validation error 1.442308 %
+     epoch 42, minibatch 390/390, test error of best model 1.362179 %
+training @ iter =  16400
+training @ iter =  16500
+training @ iter =  16600
+training @ iter =  16700
+epoch 43, minibatch 390/390, validation error 1.432292 %
+     epoch 43, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  16800
+training @ iter =  16900
+training @ iter =  17000
+training @ iter =  17100
+epoch 44, minibatch 390/390, validation error 1.412260 %
+     epoch 44, minibatch 390/390, test error of best model 1.332131 %
+training @ iter =  17200
+training @ iter =  17300
+training @ iter =  17400
+training @ iter =  17500
+epoch 45, minibatch 390/390, validation error 1.402244 %
+     epoch 45, minibatch 390/390, test error of best model 1.342147 %
+training @ iter =  17600
+training @ iter =  17700
+training @ iter =  17800
+training @ iter =  17900
+epoch 46, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18000
+training @ iter =  18100
+training @ iter =  18200
+training @ iter =  18300
+epoch 47, minibatch 390/390, validation error 1.402244 %
+training @ iter =  18400
+training @ iter =  18500
+training @ iter =  18600
+training @ iter =  18700
+epoch 48, minibatch 390/390, validation error 1.392228 %
+     epoch 48, minibatch 390/390, test error of best model 1.322115 %
+training @ iter =  18800
+training @ iter =  18900
+training @ iter =  19000
+training @ iter =  19100
+epoch 49, minibatch 390/390, validation error 1.372196 %
+     epoch 49, minibatch 390/390, test error of best model 1.312099 %
+training @ iter =  19200
+training @ iter =  19300
+training @ iter =  19400
+epoch 50, minibatch 390/390, validation error 1.372196 %
+training @ iter =  19500
+training @ iter =  19600
+training @ iter =  19700
+training @ iter =  19800
+epoch 51, minibatch 390/390, validation error 1.352163 %
+     epoch 51, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  19900
+training @ iter =  20000
+training @ iter =  20100
+training @ iter =  20200
+epoch 52, minibatch 390/390, validation error 1.322115 %
+     epoch 52, minibatch 390/390, test error of best model 1.302083 %
+training @ iter =  20300
+training @ iter =  20400
+training @ iter =  20500
+training @ iter =  20600
+epoch 53, minibatch 390/390, validation error 1.322115 %
+training @ iter =  20700
+training @ iter =  20800
+training @ iter =  20900
+training @ iter =  21000
+epoch 54, minibatch 390/390, validation error 1.292067 %
+     epoch 54, minibatch 390/390, test error of best model 1.262019 %
+training @ iter =  21100
+training @ iter =  21200
+training @ iter =  21300
+training @ iter =  21400
+epoch 55, minibatch 390/390, validation error 1.282051 %
+     epoch 55, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21500
+training @ iter =  21600
+training @ iter =  21700
+training @ iter =  21800
+epoch 56, minibatch 390/390, validation error 1.272035 %
+     epoch 56, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  21900
+training @ iter =  22000
+training @ iter =  22100
+training @ iter =  22200
+epoch 57, minibatch 390/390, validation error 1.231971 %
+     epoch 57, minibatch 390/390, test error of best model 1.241987 %
+training @ iter =  22300
+training @ iter =  22400
+training @ iter =  22500
+training @ iter =  22600
+epoch 58, minibatch 390/390, validation error 1.211939 %
+     epoch 58, minibatch 390/390, test error of best model 1.252003 %
+training @ iter =  22700
+training @ iter =  22800
+training @ iter =  22900
+training @ iter =  23000
+epoch 59, minibatch 390/390, validation error 1.211939 %
+training @ iter =  23100
+training @ iter =  23200
+training @ iter =  23300
+epoch 60, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23400
+training @ iter =  23500
+training @ iter =  23600
+training @ iter =  23700
+epoch 61, minibatch 390/390, validation error 1.221955 %
+training @ iter =  23800
+training @ iter =  23900
+training @ iter =  24000
+training @ iter =  24100
+epoch 62, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24200
+training @ iter =  24300
+training @ iter =  24400
+training @ iter =  24500
+epoch 63, minibatch 390/390, validation error 1.211939 %
+training @ iter =  24600
+training @ iter =  24700
+training @ iter =  24800
+training @ iter =  24900
+epoch 64, minibatch 390/390, validation error 1.201923 %
+     epoch 64, minibatch 390/390, test error of best model 1.161859 %
+training @ iter =  25000
+training @ iter =  25100
+training @ iter =  25200
+training @ iter =  25300
+epoch 65, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25400
+training @ iter =  25500
+training @ iter =  25600
+training @ iter =  25700
+epoch 66, minibatch 390/390, validation error 1.201923 %
+training @ iter =  25800
+training @ iter =  25900
+training @ iter =  26000
+training @ iter =  26100
+epoch 67, minibatch 390/390, validation error 1.191907 %
+     epoch 67, minibatch 390/390, test error of best model 1.131811 %
+training @ iter =  26200
+training @ iter =  26300
+training @ iter =  26400
+training @ iter =  26500
+epoch 68, minibatch 390/390, validation error 1.171875 %
+     epoch 68, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  26600
+training @ iter =  26700
+training @ iter =  26800
+training @ iter =  26900
+epoch 69, minibatch 390/390, validation error 1.171875 %
+training @ iter =  27000
+training @ iter =  27100
+training @ iter =  27200
+epoch 70, minibatch 390/390, validation error 1.161859 %
+     epoch 70, minibatch 390/390, test error of best model 1.101763 %
+training @ iter =  27300
+training @ iter =  27400
+training @ iter =  27500
+training @ iter =  27600
+epoch 71, minibatch 390/390, validation error 1.161859 %
+training @ iter =  27700
+training @ iter =  27800
+training @ iter =  27900
+training @ iter =  28000
+epoch 72, minibatch 390/390, validation error 1.171875 %
+training @ iter =  28100
+training @ iter =  28200
+training @ iter =  28300
+training @ iter =  28400
+epoch 73, minibatch 390/390, validation error 1.161859 %
+training @ iter =  28500
+training @ iter =  28600
+training @ iter =  28700
+training @ iter =  28800
+epoch 74, minibatch 390/390, validation error 1.141827 %
+     epoch 74, minibatch 390/390, test error of best model 1.071715 %
+training @ iter =  28900
+training @ iter =  29000
+training @ iter =  29100
+training @ iter =  29200
+epoch 75, minibatch 390/390, validation error 1.141827 %
+training @ iter =  29300
+training @ iter =  29400
+training @ iter =  29500
+training @ iter =  29600
+epoch 76, minibatch 390/390, validation error 1.151843 %
+training @ iter =  29700
+training @ iter =  29800
+training @ iter =  29900
+training @ iter =  30000
+epoch 77, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30100
+training @ iter =  30200
+training @ iter =  30300
+training @ iter =  30400
+epoch 78, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30500
+training @ iter =  30600
+training @ iter =  30700
+training @ iter =  30800
+epoch 79, minibatch 390/390, validation error 1.151843 %
+training @ iter =  30900
+training @ iter =  31000
+training @ iter =  31100
+epoch 80, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31200
+training @ iter =  31300
+training @ iter =  31400
+training @ iter =  31500
+epoch 81, minibatch 390/390, validation error 1.161859 %
+training @ iter =  31600
+training @ iter =  31700
+training @ iter =  31800
+training @ iter =  31900
+epoch 82, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32000
+training @ iter =  32100
+training @ iter =  32200
+training @ iter =  32300
+epoch 83, minibatch 390/390, validation error 1.171875 %
+training @ iter =  32400
+training @ iter =  32500
+training @ iter =  32600
+training @ iter =  32700
+epoch 84, minibatch 390/390, validation error 1.161859 %
+training @ iter =  32800
+training @ iter =  32900
+training @ iter =  33000
+training @ iter =  33100
+epoch 85, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33200
+training @ iter =  33300
+training @ iter =  33400
+training @ iter =  33500
+epoch 86, minibatch 390/390, validation error 1.161859 %
+training @ iter =  33600
+training @ iter =  33700
+training @ iter =  33800
+training @ iter =  33900
+epoch 87, minibatch 390/390, validation error 1.121795 %
+     epoch 87, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34000
+training @ iter =  34100
+training @ iter =  34200
+training @ iter =  34300
+epoch 88, minibatch 390/390, validation error 1.111779 %
+     epoch 88, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34400
+training @ iter =  34500
+training @ iter =  34600
+training @ iter =  34700
+epoch 89, minibatch 390/390, validation error 1.101763 %
+     epoch 89, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  34800
+training @ iter =  34900
+training @ iter =  35000
+epoch 90, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35100
+training @ iter =  35200
+training @ iter =  35300
+training @ iter =  35400
+epoch 91, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35500
+training @ iter =  35600
+training @ iter =  35700
+training @ iter =  35800
+epoch 92, minibatch 390/390, validation error 1.101763 %
+training @ iter =  35900
+training @ iter =  36000
+training @ iter =  36100
+training @ iter =  36200
+epoch 93, minibatch 390/390, validation error 1.091747 %
+     epoch 93, minibatch 390/390, test error of best model 1.031651 %
+training @ iter =  36300
+training @ iter =  36400
+training @ iter =  36500
+training @ iter =  36600
+epoch 94, minibatch 390/390, validation error 1.091747 %
+training @ iter =  36700
+training @ iter =  36800
+training @ iter =  36900
+training @ iter =  37000
+epoch 95, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37100
+training @ iter =  37200
+training @ iter =  37300
+training @ iter =  37400
+epoch 96, minibatch 390/390, validation error 1.101763 %
+training @ iter =  37500
+training @ iter =  37600
+training @ iter =  37700
+training @ iter =  37800
+epoch 97, minibatch 390/390, validation error 1.091747 %
+training @ iter =  37900
+training @ iter =  38000
+training @ iter =  38100
+training @ iter =  38200
+epoch 98, minibatch 390/390, validation error 1.101763 %
+training @ iter =  38300
+training @ iter =  38400
+training @ iter =  38500
+training @ iter =  38600
+epoch 99, minibatch 390/390, validation error 1.091747 %
+training @ iter =  38700
+training @ iter =  38800
+training @ iter =  38900
+epoch 100, minibatch 390/390, validation error 1.091747 %
+training @ iter =  39000
+training @ iter =  39100
+training @ iter =  39200
+training @ iter =  39300
+epoch 101, minibatch 390/390, validation error 1.081731 %
+     epoch 101, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  39400
+training @ iter =  39500
+training @ iter =  39600
+training @ iter =  39700
+epoch 102, minibatch 390/390, validation error 1.081731 %
+training @ iter =  39800
+training @ iter =  39900
+training @ iter =  40000
+training @ iter =  40100
+epoch 103, minibatch 390/390, validation error 1.061699 %
+     epoch 103, minibatch 390/390, test error of best model 0.961538 %
+training @ iter =  40200
+training @ iter =  40300
+training @ iter =  40400
+training @ iter =  40500
+epoch 104, minibatch 390/390, validation error 1.071715 %
+training @ iter =  40600
+training @ iter =  40700
+training @ iter =  40800
+training @ iter =  40900
+epoch 105, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41000
+training @ iter =  41100
+training @ iter =  41200
+training @ iter =  41300
+epoch 106, minibatch 390/390, validation error 1.071715 %
+training @ iter =  41400
+training @ iter =  41500
+training @ iter =  41600
+training @ iter =  41700
+epoch 107, minibatch 390/390, validation error 1.081731 %
+training @ iter =  41800
+training @ iter =  41900
+training @ iter =  42000
+training @ iter =  42100
+epoch 108, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42200
+training @ iter =  42300
+training @ iter =  42400
+training @ iter =  42500
+epoch 109, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42600
+training @ iter =  42700
+training @ iter =  42800
+epoch 110, minibatch 390/390, validation error 1.081731 %
+training @ iter =  42900
+training @ iter =  43000
+training @ iter =  43100
+training @ iter =  43200
+epoch 111, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43300
+training @ iter =  43400
+training @ iter =  43500
+training @ iter =  43600
+epoch 112, minibatch 390/390, validation error 1.081731 %
+training @ iter =  43700
+training @ iter =  43800
+training @ iter =  43900
+training @ iter =  44000
+epoch 113, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44100
+training @ iter =  44200
+training @ iter =  44300
+training @ iter =  44400
+epoch 114, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44500
+training @ iter =  44600
+training @ iter =  44700
+training @ iter =  44800
+epoch 115, minibatch 390/390, validation error 1.081731 %
+training @ iter =  44900
+training @ iter =  45000
+training @ iter =  45100
+training @ iter =  45200
+epoch 116, minibatch 390/390, validation error 1.091747 %
+training @ iter =  45300
+training @ iter =  45400
+training @ iter =  45500
+training @ iter =  45600
+epoch 117, minibatch 390/390, validation error 1.101763 %
+training @ iter =  45700
+training @ iter =  45800
+training @ iter =  45900
+training @ iter =  46000
+epoch 118, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46100
+training @ iter =  46200
+training @ iter =  46300
+training @ iter =  46400
+epoch 119, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46500
+training @ iter =  46600
+training @ iter =  46700
+epoch 120, minibatch 390/390, validation error 1.101763 %
+training @ iter =  46800
+training @ iter =  46900
+training @ iter =  47000
+training @ iter =  47100
+epoch 121, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47200
+training @ iter =  47300
+training @ iter =  47400
+training @ iter =  47500
+epoch 122, minibatch 390/390, validation error 1.101763 %
+training @ iter =  47600
+training @ iter =  47700
+training @ iter =  47800
+training @ iter =  47900
+epoch 123, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48000
+training @ iter =  48100
+training @ iter =  48200
+training @ iter =  48300
+epoch 124, minibatch 390/390, validation error 1.101763 %
+training @ iter =  48400
+training @ iter =  48500
+training @ iter =  48600
+training @ iter =  48700
+epoch 125, minibatch 390/390, validation error 1.091747 %
+training @ iter =  48800
+training @ iter =  48900
+training @ iter =  49000
+training @ iter =  49100
+epoch 126, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49200
+training @ iter =  49300
+training @ iter =  49400
+training @ iter =  49500
+epoch 127, minibatch 390/390, validation error 1.091747 %
+training @ iter =  49600
+training @ iter =  49700
+training @ iter =  49800
+training @ iter =  49900
+epoch 128, minibatch 390/390, validation error 1.091747 %
+training @ iter =  50000
+training @ iter =  50100
+training @ iter =  50200
+training @ iter =  50300
+epoch 129, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50400
+training @ iter =  50500
+training @ iter =  50600
+epoch 130, minibatch 390/390, validation error 1.101763 %
+training @ iter =  50700
+training @ iter =  50800
+training @ iter =  50900
+training @ iter =  51000
+epoch 131, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51100
+training @ iter =  51200
+training @ iter =  51300
+training @ iter =  51400
+epoch 132, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51500
+training @ iter =  51600
+training @ iter =  51700
+training @ iter =  51800
+epoch 133, minibatch 390/390, validation error 1.101763 %
+training @ iter =  51900
+training @ iter =  52000
+training @ iter =  52100
+training @ iter =  52200
+epoch 134, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52300
+training @ iter =  52400
+training @ iter =  52500
+training @ iter =  52600
+epoch 135, minibatch 390/390, validation error 1.101763 %
+training @ iter =  52700
+training @ iter =  52800
+training @ iter =  52900
+training @ iter =  53000
+epoch 136, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53100
+training @ iter =  53200
+training @ iter =  53300
+training @ iter =  53400
+epoch 137, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53500
+training @ iter =  53600
+training @ iter =  53700
+training @ iter =  53800
+epoch 138, minibatch 390/390, validation error 1.111779 %
+training @ iter =  53900
+training @ iter =  54000
+training @ iter =  54100
+training @ iter =  54200
+epoch 139, minibatch 390/390, validation error 1.111779 %
+training @ iter =  54300
+training @ iter =  54400
+training @ iter =  54500
+epoch 140, minibatch 390/390, validation error 1.101763 %
+training @ iter =  54600
+training @ iter =  54700
+training @ iter =  54800
+training @ iter =  54900
+epoch 141, minibatch 390/390, validation error 1.101763 %
+training @ iter =  55000
+training @ iter =  55100
+training @ iter =  55200
+training @ iter =  55300
+epoch 142, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55400
+training @ iter =  55500
+training @ iter =  55600
+training @ iter =  55700
+epoch 143, minibatch 390/390, validation error 1.091747 %
+training @ iter =  55800
+training @ iter =  55900
+training @ iter =  56000
+training @ iter =  56100
+epoch 144, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56200
+training @ iter =  56300
+training @ iter =  56400
+training @ iter =  56500
+epoch 145, minibatch 390/390, validation error 1.091747 %
+training @ iter =  56600
+training @ iter =  56700
+training @ iter =  56800
+training @ iter =  56900
+epoch 146, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57000
+training @ iter =  57100
+training @ iter =  57200
+training @ iter =  57300
+epoch 147, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57400
+training @ iter =  57500
+training @ iter =  57600
+training @ iter =  57700
+epoch 148, minibatch 390/390, validation error 1.081731 %
+training @ iter =  57800
+training @ iter =  57900
+training @ iter =  58000
+training @ iter =  58100
+epoch 149, minibatch 390/390, validation error 1.071715 %
+training @ iter =  58200
+training @ iter =  58300
+training @ iter =  58400
+epoch 150, minibatch 390/390, validation error 1.071715 %
+Optimization complete.
+Best validation score of 1.061699 % obtained at iteration 40170, with test performance 0.961538 %
